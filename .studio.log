@@ -1,0 +1,2245 @@
+17:21:00 khmer frontend: pipeline/khmer_text.py loaded
+17:21:05 khmer frontend: pipeline/khmer_text.py loaded
+17:21:45 khmer frontend: pipeline/khmer_text.py loaded
+17:23:06 khmer frontend: pipeline/khmer_text.py loaded
+17:23:24 -> GET /
+17:23:27 -> GET /api/version
+17:23:27 GET /api/version -> 200
+17:23:27 -> GET /style_demos/natural.mp3
+17:23:27 -> GET /style_demos/cinematic.mp3
+17:23:27 -> GET /style_demos/audiobook.mp3
+17:23:27 -> GET /style_demos/meditation.mp3
+17:23:27 -> GET /style_demos/bedtime.mp3
+17:23:27 -> GET /style_demos/performance.json
+17:23:56 -> GET /
+17:23:56 -> GET /api/beds
+17:23:56 GET /api/beds -> 200
+17:23:56 -> GET /api/enhance/status
+17:23:56 GET /api/enhance/status -> 200
+17:23:56 -> GET /api/enhance/status
+17:23:56 GET /api/enhance/status -> 200
+17:23:56 -> GET /api/rvc/status
+17:23:56 -> GET /api/ping
+17:23:56 GET /api/ping -> 200
+17:23:56 -> GET /api/voices
+17:23:56 GET /api/voices -> 200
+17:23:56 GET /api/rvc/status -> 200
+17:23:58 -> GET /
+17:23:58 -> GET /api/beds
+17:23:58 GET /api/beds -> 200
+17:23:58 -> GET /api/enhance/status
+17:23:58 GET /api/enhance/status -> 200
+17:23:58 -> GET /api/enhance/status
+17:23:58 GET /api/enhance/status -> 200
+17:23:58 -> GET /api/rvc/status
+17:23:58 GET /api/rvc/status -> 200
+17:23:58 -> GET /api/ping
+17:23:58 GET /api/ping -> 200
+17:23:58 -> GET /api/voices
+17:23:58 GET /api/voices -> 200
+17:23:59 -> GET /
+17:23:59 -> GET /api/beds
+17:23:59 GET /api/beds -> 200
+17:23:59 -> GET /api/enhance/status
+17:23:59 GET /api/enhance/status -> 200
+17:23:59 -> GET /api/rvc/status
+17:23:59 GET /api/rvc/status -> 200
+17:23:59 -> GET /api/enhance/status
+17:23:59 GET /api/enhance/status -> 200
+17:23:59 -> GET /api/voices
+17:23:59 GET /api/voices -> 200
+17:23:59 -> GET /api/ping
+17:23:59 GET /api/ping -> 200
+17:24:00 -> GET /
+17:24:00 -> GET /api/beds
+17:24:00 GET /api/beds -> 200
+17:24:00 -> GET /api/enhance/status
+17:24:00 GET /api/enhance/status -> 200
+17:24:00 -> GET /api/rvc/status
+17:24:00 -> GET /api/ping
+17:24:00 GET /api/ping -> 200
+17:24:00 GET /api/rvc/status -> 200
+17:24:00 -> GET /api/enhance/status
+17:24:00 GET /api/enhance/status -> 200
+17:24:00 -> GET /api/voices
+17:24:00 GET /api/voices -> 200
+19:09:53 khmer frontend: pipeline/khmer_text.py loaded
+19:24:19 -> GET /
+19:25:20 -> GET /
+19:25:20 -> GET /api/beds
+19:25:20 GET /api/beds -> 200
+19:25:20 -> GET /api/enhance/status
+19:25:20 -> GET /api/enhance/status
+19:25:20 GET /api/enhance/status -> 200
+19:25:20 -> GET /api/rvc/status
+19:25:20 -> GET /api/ping
+19:25:20 GET /api/ping -> 200
+19:25:20 -> GET /api/voices
+19:25:20 GET /api/voices -> 200
+19:25:20 GET /api/enhance/status -> 200
+19:25:21 GET /api/rvc/status -> 200
+19:25:40 -> GET /
+19:25:40 -> GET /api/beds
+19:25:40 GET /api/beds -> 200
+19:25:40 -> GET /api/enhance/status
+19:25:40 GET /api/enhance/status -> 200
+19:25:40 -> GET /api/enhance/status
+19:25:40 GET /api/enhance/status -> 200
+19:25:40 -> GET /api/rvc/status
+19:25:40 GET /api/rvc/status -> 200
+19:25:40 -> GET /api/ping
+19:25:40 GET /api/ping -> 200
+19:25:40 -> GET /api/voices
+19:25:40 GET /api/voices -> 200
+19:25:52 -> GET /
+19:25:52 -> GET /api/beds
+19:25:52 GET /api/beds -> 200
+19:25:52 -> GET /api/enhance/status
+19:25:52 GET /api/enhance/status -> 200
+19:25:52 -> GET /api/enhance/status
+19:25:52 GET /api/enhance/status -> 200
+19:25:52 -> GET /api/rvc/status
+19:25:52 GET /api/rvc/status -> 200
+19:25:52 -> GET /api/ping
+19:25:52 GET /api/ping -> 200
+19:25:52 -> GET /api/voices
+19:25:52 GET /api/voices -> 200
+19:26:04 -> GET /
+19:26:04 -> GET /api/beds
+19:26:04 GET /api/beds -> 200
+19:26:04 -> GET /api/enhance/status
+19:26:04 -> GET /api/enhance/status
+19:26:04 -> GET /api/rvc/status
+19:26:04 GET /api/rvc/status -> 200
+19:26:04 -> GET /api/ping
+19:26:04 GET /api/ping -> 200
+19:26:04 GET /api/enhance/status -> 200
+19:26:04 GET /api/enhance/status -> 200
+19:26:04 -> GET /api/voices
+19:26:04 GET /api/voices -> 200
+19:26:15 -> GET /
+19:26:15 -> GET /api/beds
+19:26:15 GET /api/beds -> 200
+19:26:15 -> GET /api/enhance/status
+19:26:15 GET /api/enhance/status -> 200
+19:26:15 -> GET /api/enhance/status
+19:26:15 GET /api/enhance/status -> 200
+19:26:15 -> GET /api/rvc/status
+19:26:15 GET /api/rvc/status -> 200
+19:26:15 -> GET /api/ping
+19:26:15 GET /api/ping -> 200
+19:26:15 -> GET /api/voices
+19:26:15 GET /api/voices -> 200
+19:36:29 khmer frontend: pipeline/khmer_text.py loaded
+19:36:44 -> GET /
+19:36:47 -> GET /
+19:36:47 -> GET /api/beds
+19:36:47 GET /api/beds -> 200
+19:36:47 -> GET /api/enhance/status
+19:36:47 GET /api/enhance/status -> 200
+19:36:47 -> GET /api/rvc/status
+19:36:47 -> GET /api/ping
+19:36:47 GET /api/ping -> 200
+19:36:47 -> GET /api/enhance/status
+19:36:47 GET /api/enhance/status -> 200
+19:36:47 -> GET /api/voices
+19:36:47 GET /api/voices -> 200
+19:36:47 GET /api/rvc/status -> 200
+19:37:51 -> GET /
+19:37:55 -> GET /
+19:37:55 -> GET /api/voices
+19:37:55 GET /api/voices -> 200
+19:43:41 -> GET /
+19:43:43 -> GET /
+19:43:43 -> GET /
+19:43:43 -> GET /api/enhance/status
+19:43:43 GET /api/enhance/status -> 200
+19:43:45 -> GET /
+19:43:58 -> GET /
+19:44:33 -> GET /
+19:44:33 -> GET /api/beds
+19:44:33 GET /api/beds -> 200
+19:44:33 -> GET /api/enhance/status
+19:44:33 GET /api/enhance/status -> 200
+19:44:33 -> GET /api/rvc/status
+19:44:33 -> GET /api/enhance/status
+19:44:33 GET /api/enhance/status -> 200
+19:44:33 -> GET /api/ping
+19:44:33 GET /api/ping -> 200
+19:44:33 -> GET /api/voices
+19:44:33 GET /api/voices -> 200
+19:44:33 GET /api/rvc/status -> 200
+19:44:46 khmer frontend: pipeline/khmer_text.py loaded
+03:26:37 -> GET /
+03:26:37 -> GET /api/beds
+03:26:37 GET /api/beds -> 200
+03:26:37 -> GET /api/enhance/status
+03:26:37 -> GET /api/rvc/status
+03:26:37 GET /api/enhance/status -> 200
+03:26:37 -> GET /api/enhance/status
+03:26:37 GET /api/enhance/status -> 200
+03:26:37 -> GET /api/ping
+03:26:37 -> GET /api/voices
+03:26:37 GET /api/ping -> 200
+03:26:37 GET /api/voices -> 200
+03:26:53 -> GET /style_demos/sad_romantic.mp3
+03:27:00 GET /api/rvc/status -> 200
+03:27:15 -> POST /api/rvc/test
+03:27:17 [rvc] worker start: python.exe | rvc-dir=D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer | model=assets/weights/Sonaro-kh.pth | index=(auto)
+03:27:18 -> GET /api/rvc/status
+03:27:20 GET /api/rvc/status -> 200
+03:27:20 -> GET /api/rvc/status
+03:27:22 GET /api/rvc/status -> 200
+03:27:23 -> GET /api/rvc/status
+03:27:25 GET /api/rvc/status -> 200
+03:27:25 -> GET /api/rvc/status
+03:27:27 GET /api/rvc/status -> 200
+03:27:28 -> GET /api/rvc/status
+03:27:30 GET /api/rvc/status -> 200
+03:27:30 -> GET /api/rvc/status
+03:27:32 GET /api/rvc/status -> 200
+03:27:33 -> GET /api/rvc/status
+03:27:35 GET /api/rvc/status -> 200
+03:27:35 -> GET /api/rvc/status
+03:27:37 GET /api/rvc/status -> 200
+03:27:38 -> GET /api/rvc/status
+03:27:40 GET /api/rvc/status -> 200
+03:27:40 -> GET /api/rvc/status
+03:27:42 GET /api/rvc/status -> 200
+03:27:43 -> GET /api/rvc/status
+03:27:45 GET /api/rvc/status -> 200
+03:27:45 -> GET /api/rvc/status
+03:27:47 GET /api/rvc/status -> 200
+03:27:48 -> GET /api/rvc/status
+03:27:50 GET /api/rvc/status -> 200
+03:27:50 -> GET /api/rvc/status
+03:27:51 GET /api/rvc/status -> 200
+03:27:53 -> GET /api/rvc/status
+03:27:53 GET /api/rvc/status -> 200
+03:27:55 -> GET /api/rvc/status
+03:27:55 GET /api/rvc/status -> 200
+03:29:38 -> GET /style_demos/sad_romantic.mp3
+03:29:53 -> POST /api/produce
+03:29:53 POST /api/produce -> 202
+03:29:54 -> GET /api/status
+03:29:54 GET /api/status -> 200
+03:29:56 -> GET /api/status
+03:29:56 GET /api/status -> 200
+03:29:57 -> GET /api/status
+03:29:57 GET /api/status -> 200
+03:29:59 -> GET /api/status
+03:29:59 GET /api/status -> 200
+03:30:00 -> GET /api/status
+03:30:00 GET /api/status -> 200
+03:30:02 -> GET /api/status
+03:30:02 GET /api/status -> 200
+03:30:03 -> GET /api/status
+03:30:03 GET /api/status -> 200
+03:30:05 -> GET /api/status
+03:30:05 GET /api/status -> 200
+03:30:06 -> GET /api/status
+03:30:06 GET /api/status -> 200
+03:30:08 -> GET /api/status
+03:30:08 GET /api/status -> 200
+03:30:09 -> GET /api/status
+03:30:09 GET /api/status -> 200
+03:30:11 -> GET /api/status
+03:30:11 GET /api/status -> 200
+03:30:12 -> GET /api/status
+03:30:12 GET /api/status -> 200
+03:30:14 -> GET /api/status
+03:30:14 GET /api/status -> 200
+03:30:15 -> GET /api/status
+03:30:15 GET /api/status -> 200
+03:30:17 -> GET /api/status
+03:30:17 GET /api/status -> 200
+03:30:18 -> GET /api/status
+03:30:18 GET /api/status -> 200
+03:30:20 -> GET /api/status
+03:30:20 GET /api/status -> 200
+03:30:20 -> GET /audio/61f3cb6cab884723ad89ca62e013c38d/wav
+03:31:17 -> GET /
+03:31:17 -> GET /api/beds
+03:31:17 -> GET /api/rvc/status
+03:31:17 GET /api/beds -> 200
+03:31:17 -> GET /api/enhance/status
+03:31:17 -> GET /api/ping
+03:31:17 GET /api/enhance/status -> 200
+03:31:17 GET /api/ping -> 200
+03:31:17 GET /api/rvc/status -> 200
+03:31:17 -> GET /api/voices
+03:31:17 -> GET /api/enhance/status
+03:31:17 GET /api/voices -> 200
+03:31:17 GET /api/enhance/status -> 200
+03:32:07 -> POST /api/produce
+03:32:07 POST /api/produce -> 202
+03:32:07 khmer frontend: pipeline/khmer_text.py loaded
+03:32:09 -> GET /api/status
+03:32:09 GET /api/status -> 200
+03:32:10 -> GET /api/status
+03:32:10 GET /api/status -> 200
+03:32:12 -> GET /api/status
+03:32:12 GET /api/status -> 200
+03:32:13 -> GET /api/status
+03:32:13 GET /api/status -> 200
+03:32:15 -> GET /api/status
+03:32:15 GET /api/status -> 200
+03:32:16 -> GET /api/status
+03:32:16 GET /api/status -> 200
+03:32:18 -> GET /api/status
+03:32:18 GET /api/status -> 200
+03:32:19 -> GET /api/status
+03:32:19 GET /api/status -> 200
+03:32:21 -> GET /api/status
+03:32:21 GET /api/status -> 200
+03:32:22 -> GET /api/status
+03:32:22 GET /api/status -> 200
+03:32:24 -> GET /api/status
+03:32:24 GET /api/status -> 200
+03:32:25 -> GET /api/status
+03:32:25 GET /api/status -> 200
+03:32:27 -> GET /api/status
+03:32:27 GET /api/status -> 200
+03:32:28 -> GET /api/status
+03:32:28 GET /api/status -> 200
+03:32:30 -> GET /api/status
+03:32:30 GET /api/status -> 200
+03:32:31 -> GET /api/status
+03:32:31 GET /api/status -> 200
+03:32:33 -> GET /api/status
+03:32:33 GET /api/status -> 200
+03:32:34 -> GET /api/status
+03:32:34 GET /api/status -> 200
+03:32:36 -> GET /api/status
+03:32:36 GET /api/status -> 200
+03:32:38 -> GET /api/status
+03:32:38 GET /api/status -> 200
+03:32:39 -> GET /api/status
+03:32:39 GET /api/status -> 200
+03:32:41 -> GET /api/status
+03:32:41 GET /api/status -> 200
+03:32:42 -> GET /api/status
+03:32:42 GET /api/status -> 200
+03:32:44 -> GET /api/status
+03:32:44 GET /api/status -> 200
+03:32:45 -> GET /api/status
+03:32:45 GET /api/status -> 200
+03:32:47 -> GET /api/status
+03:32:47 GET /api/status -> 200
+03:32:48 -> GET /api/status
+03:32:48 GET /api/status -> 200
+03:32:50 -> GET /api/status
+03:32:50 GET /api/status -> 200
+03:32:51 -> GET /api/status
+03:32:51 GET /api/status -> 200
+03:32:53 -> GET /api/status
+03:32:53 GET /api/status -> 200
+03:32:54 -> GET /api/status
+03:32:54 GET /api/status -> 200
+03:32:56 -> GET /api/status
+03:32:56 GET /api/status -> 200
+03:32:57 -> GET /api/status
+03:32:57 GET /api/status -> 200
+03:32:59 -> GET /api/status
+03:32:59 GET /api/status -> 200
+03:33:00 -> GET /api/status
+03:33:00 GET /api/status -> 200
+03:33:02 -> GET /api/status
+03:33:02 GET /api/status -> 200
+03:33:03 -> GET /api/status
+03:33:03 GET /api/status -> 200
+03:33:05 -> GET /api/status
+03:33:05 GET /api/status -> 200
+03:33:06 -> GET /api/status
+03:33:06 GET /api/status -> 200
+03:33:08 -> GET /api/status
+03:33:08 GET /api/status -> 200
+03:33:09 -> GET /api/status
+03:33:09 GET /api/status -> 200
+03:33:11 -> GET /api/status
+03:33:11 GET /api/status -> 200
+03:33:12 -> GET /api/status
+03:33:12 GET /api/status -> 200
+03:33:14 -> GET /api/status
+03:33:14 GET /api/status -> 200
+03:33:15 -> GET /api/status
+03:33:15 GET /api/status -> 200
+03:33:17 -> GET /api/status
+03:33:17 GET /api/status -> 200
+03:33:18 -> GET /api/status
+03:33:18 GET /api/status -> 200
+03:33:20 -> GET /api/status
+03:33:20 GET /api/status -> 200
+03:33:21 -> GET /api/status
+03:33:21 GET /api/status -> 200
+03:33:23 -> GET /api/status
+03:33:23 GET /api/status -> 200
+03:33:24 -> GET /api/status
+03:33:24 GET /api/status -> 200
+03:33:26 -> GET /api/status
+03:33:26 GET /api/status -> 200
+03:33:27 -> GET /api/status
+03:33:27 GET /api/status -> 200
+03:33:29 -> GET /api/status
+03:33:29 GET /api/status -> 200
+03:33:30 -> GET /api/status
+03:33:30 GET /api/status -> 200
+03:33:32 -> GET /api/status
+03:33:32 GET /api/status -> 200
+03:33:33 -> GET /api/status
+03:33:33 GET /api/status -> 200
+03:33:35 -> GET /api/status
+03:33:35 GET /api/status -> 200
+03:33:36 -> GET /api/status
+03:33:36 GET /api/status -> 200
+03:33:38 -> GET /api/status
+03:33:38 GET /api/status -> 200
+03:33:39 -> GET /api/status
+03:33:39 GET /api/status -> 200
+03:33:41 -> GET /api/status
+03:33:41 GET /api/status -> 200
+03:33:42 -> GET /api/status
+03:33:42 GET /api/status -> 200
+03:33:44 -> GET /api/status
+03:33:44 GET /api/status -> 200
+03:33:45 -> GET /api/status
+03:33:45 GET /api/status -> 200
+03:33:47 -> GET /api/status
+03:33:47 GET /api/status -> 200
+03:33:48 -> GET /api/status
+03:33:48 GET /api/status -> 200
+03:33:50 -> GET /api/status
+03:33:50 GET /api/status -> 200
+03:33:51 -> GET /api/status
+03:33:51 GET /api/status -> 200
+03:33:53 -> GET /api/status
+03:33:53 GET /api/status -> 200
+03:33:54 -> GET /api/status
+03:33:54 GET /api/status -> 200
+03:33:56 -> GET /api/status
+03:33:56 GET /api/status -> 200
+03:33:58 -> GET /api/status
+03:33:58 GET /api/status -> 200
+03:33:59 -> GET /api/status
+03:33:59 GET /api/status -> 200
+03:34:01 -> GET /api/status
+03:34:01 GET /api/status -> 200
+03:34:02 -> GET /api/status
+03:34:02 GET /api/status -> 200
+03:34:04 -> GET /api/status
+03:34:04 GET /api/status -> 200
+03:34:05 -> GET /api/status
+03:34:05 GET /api/status -> 200
+03:34:07 -> GET /api/status
+03:34:07 GET /api/status -> 200
+03:34:08 -> GET /api/status
+03:34:08 GET /api/status -> 200
+03:34:10 -> GET /api/status
+03:34:10 GET /api/status -> 200
+03:34:11 -> GET /api/status
+03:34:11 GET /api/status -> 200
+03:34:13 -> GET /api/status
+03:34:13 GET /api/status -> 200
+03:34:14 -> GET /api/status
+03:34:14 GET /api/status -> 200
+03:34:16 -> GET /api/status
+03:34:16 GET /api/status -> 200
+03:34:17 -> GET /api/status
+03:34:17 GET /api/status -> 200
+03:34:19 -> GET /api/status
+03:34:19 GET /api/status -> 200
+03:34:20 -> GET /api/status
+03:34:20 GET /api/status -> 200
+03:34:22 -> GET /api/status
+03:34:22 GET /api/status -> 200
+03:34:23 -> GET /api/status
+03:34:23 GET /api/status -> 200
+03:34:25 -> GET /api/status
+03:34:25 GET /api/status -> 200
+03:34:26 -> GET /api/status
+03:34:26 GET /api/status -> 200
+03:34:28 -> GET /api/status
+03:34:28 GET /api/status -> 200
+03:34:29 -> GET /api/status
+03:34:29 GET /api/status -> 200
+03:34:31 -> GET /api/status
+03:34:31 GET /api/status -> 200
+03:34:32 -> GET /api/status
+03:34:32 GET /api/status -> 200
+03:34:34 -> GET /api/status
+03:34:34 GET /api/status -> 200
+03:34:35 -> GET /api/status
+03:34:35 GET /api/status -> 200
+03:34:37 -> GET /api/status
+03:34:37 GET /api/status -> 200
+03:34:38 -> GET /api/status
+03:34:38 GET /api/status -> 200
+03:34:40 -> GET /api/status
+03:34:40 GET /api/status -> 200
+03:34:41 -> GET /api/status
+03:34:41 GET /api/status -> 200
+03:34:43 -> GET /api/status
+03:34:43 GET /api/status -> 200
+03:34:44 -> GET /api/status
+03:34:44 GET /api/status -> 200
+03:34:46 -> GET /api/status
+03:34:46 GET /api/status -> 200
+03:34:47 -> GET /api/status
+03:34:47 GET /api/status -> 200
+03:34:49 -> GET /api/status
+03:34:49 GET /api/status -> 200
+03:34:50 -> GET /api/status
+03:34:50 GET /api/status -> 200
+03:34:52 -> GET /api/status
+03:34:52 GET /api/status -> 200
+03:34:53 -> GET /api/status
+03:34:53 GET /api/status -> 200
+03:34:55 -> GET /api/status
+03:34:55 GET /api/status -> 200
+03:34:56 -> GET /api/status
+03:34:56 GET /api/status -> 200
+03:34:58 -> GET /api/status
+03:34:58 GET /api/status -> 200
+03:34:59 -> GET /api/status
+03:34:59 GET /api/status -> 200
+03:35:01 -> GET /api/status
+03:35:01 GET /api/status -> 200
+03:35:02 -> GET /api/status
+03:35:02 GET /api/status -> 200
+03:35:04 -> GET /api/status
+03:35:04 GET /api/status -> 200
+03:35:05 -> GET /api/status
+03:35:05 GET /api/status -> 200
+03:35:07 -> GET /api/status
+03:35:07 GET /api/status -> 200
+03:35:08 -> GET /api/status
+03:35:08 GET /api/status -> 200
+03:35:10 -> GET /api/status
+03:35:10 GET /api/status -> 200
+03:35:11 -> GET /api/status
+03:35:11 GET /api/status -> 200
+03:35:13 -> GET /api/status
+03:35:13 GET /api/status -> 200
+03:35:14 -> GET /api/status
+03:35:14 GET /api/status -> 200
+03:35:16 -> GET /api/status
+03:35:16 GET /api/status -> 200
+03:35:17 -> GET /api/status
+03:35:17 GET /api/status -> 200
+03:35:19 -> GET /api/status
+03:35:19 GET /api/status -> 200
+03:35:20 -> GET /api/status
+03:35:20 GET /api/status -> 200
+03:35:22 -> GET /api/status
+03:35:22 GET /api/status -> 200
+03:35:24 -> GET /api/status
+03:35:24 GET /api/status -> 200
+03:35:25 -> GET /api/status
+03:35:25 GET /api/status -> 200
+03:35:27 -> GET /api/status
+03:35:27 GET /api/status -> 200
+03:35:28 -> GET /api/status
+03:35:28 GET /api/status -> 200
+03:35:30 -> GET /api/status
+03:35:30 GET /api/status -> 200
+03:35:31 -> GET /api/status
+03:35:31 GET /api/status -> 200
+03:35:33 -> GET /api/status
+03:35:33 GET /api/status -> 200
+03:35:34 -> GET /api/status
+03:35:34 GET /api/status -> 200
+03:35:36 -> GET /api/status
+03:35:36 GET /api/status -> 200
+03:35:37 -> GET /api/status
+03:35:37 GET /api/status -> 200
+03:35:39 -> GET /api/status
+03:35:39 GET /api/status -> 200
+03:35:40 -> GET /api/status
+03:35:40 GET /api/status -> 200
+03:35:42 -> GET /api/status
+03:35:42 GET /api/status -> 200
+03:35:43 -> GET /api/status
+03:35:43 GET /api/status -> 200
+03:35:45 -> GET /api/status
+03:35:45 GET /api/status -> 200
+03:35:46 -> GET /api/status
+03:35:46 GET /api/status -> 200
+03:35:48 -> GET /api/status
+03:35:48 GET /api/status -> 200
+03:35:49 -> GET /api/status
+03:35:49 GET /api/status -> 200
+03:35:51 -> GET /api/status
+03:35:51 GET /api/status -> 200
+03:35:52 -> GET /api/status
+03:35:52 GET /api/status -> 200
+03:35:54 -> GET /api/status
+03:35:54 GET /api/status -> 200
+03:35:55 -> GET /api/status
+03:35:55 GET /api/status -> 200
+03:35:57 -> GET /api/status
+03:35:57 GET /api/status -> 200
+03:35:58 -> GET /api/status
+03:35:58 GET /api/status -> 200
+03:36:00 -> GET /api/status
+03:36:00 GET /api/status -> 200
+03:36:01 -> GET /api/status
+03:36:01 GET /api/status -> 200
+03:36:03 -> GET /api/status
+03:36:03 GET /api/status -> 200
+03:36:04 -> GET /api/status
+03:36:04 GET /api/status -> 200
+03:36:06 -> GET /api/status
+03:36:06 GET /api/status -> 200
+03:36:07 -> GET /api/status
+03:36:07 GET /api/status -> 200
+03:36:09 -> GET /api/status
+03:36:09 GET /api/status -> 200
+03:36:10 -> GET /api/status
+03:36:10 GET /api/status -> 200
+03:36:12 -> GET /api/status
+03:36:12 GET /api/status -> 200
+03:36:13 -> GET /api/status
+03:36:13 GET /api/status -> 200
+03:36:15 -> GET /api/status
+03:36:15 GET /api/status -> 200
+03:36:16 -> GET /api/status
+03:36:16 GET /api/status -> 200
+03:36:18 -> GET /api/status
+03:36:18 GET /api/status -> 200
+03:36:19 -> GET /api/status
+03:36:19 GET /api/status -> 200
+03:36:21 -> GET /api/status
+03:36:21 GET /api/status -> 200
+03:36:22 -> GET /api/status
+03:36:22 GET /api/status -> 200
+03:36:24 -> GET /api/status
+03:36:24 GET /api/status -> 200
+03:36:25 -> GET /api/status
+03:36:25 GET /api/status -> 200
+03:36:27 -> GET /api/status
+03:36:27 GET /api/status -> 200
+03:36:28 -> GET /api/status
+03:36:28 GET /api/status -> 200
+03:36:30 -> GET /api/status
+03:36:30 GET /api/status -> 200
+03:36:31 -> GET /api/status
+03:36:31 GET /api/status -> 200
+03:36:33 -> GET /api/status
+03:36:33 GET /api/status -> 200
+03:36:34 -> GET /api/status
+03:36:34 GET /api/status -> 200
+03:36:36 -> GET /api/status
+03:36:36 GET /api/status -> 200
+03:36:37 -> GET /api/status
+03:36:37 GET /api/status -> 200
+03:36:39 -> GET /api/status
+03:36:39 GET /api/status -> 200
+03:36:40 -> GET /api/status
+03:36:40 GET /api/status -> 200
+03:36:42 -> GET /api/status
+03:36:42 GET /api/status -> 200
+03:36:44 -> GET /api/status
+03:36:44 GET /api/status -> 200
+03:36:45 -> GET /api/status
+03:36:45 GET /api/status -> 200
+03:36:47 -> GET /api/status
+03:36:47 GET /api/status -> 200
+03:36:48 -> GET /api/status
+03:36:48 GET /api/status -> 200
+03:36:50 -> GET /api/status
+03:36:50 GET /api/status -> 200
+03:36:51 -> GET /api/status
+03:36:51 GET /api/status -> 200
+03:36:53 -> GET /api/status
+03:36:53 GET /api/status -> 200
+03:36:54 -> GET /api/status
+03:36:54 GET /api/status -> 200
+03:36:56 -> GET /api/status
+03:36:56 GET /api/status -> 200
+03:36:57 -> GET /api/status
+03:36:57 GET /api/status -> 200
+03:36:59 -> GET /api/status
+03:36:59 GET /api/status -> 200
+03:37:00 -> GET /api/status
+03:37:00 GET /api/status -> 200
+03:37:02 -> GET /api/status
+03:37:02 GET /api/status -> 200
+03:37:03 -> GET /api/status
+03:37:03 GET /api/status -> 200
+03:37:05 -> GET /api/status
+03:37:05 GET /api/status -> 200
+03:37:06 -> GET /api/status
+03:37:06 GET /api/status -> 200
+03:37:08 -> GET /api/status
+03:37:08 GET /api/status -> 200
+03:37:09 -> GET /api/status
+03:37:09 GET /api/status -> 200
+03:37:11 -> GET /api/status
+03:37:11 GET /api/status -> 200
+03:37:12 -> GET /api/status
+03:37:12 GET /api/status -> 200
+03:37:14 -> GET /api/status
+03:37:14 GET /api/status -> 200
+03:37:15 -> GET /api/status
+03:37:15 GET /api/status -> 200
+03:37:17 -> GET /api/status
+03:37:17 GET /api/status -> 200
+03:37:18 -> GET /api/status
+03:37:18 GET /api/status -> 200
+03:37:20 -> GET /api/status
+03:37:20 GET /api/status -> 200
+03:37:21 -> GET /api/status
+03:37:21 GET /api/status -> 200
+03:37:23 -> GET /api/status
+03:37:23 GET /api/status -> 200
+03:37:24 -> GET /api/status
+03:37:24 GET /api/status -> 200
+03:37:26 -> GET /api/status
+03:37:26 GET /api/status -> 200
+03:37:27 -> GET /api/status
+03:37:27 GET /api/status -> 200
+03:37:29 -> GET /api/status
+03:37:29 GET /api/status -> 200
+03:37:30 -> GET /api/status
+03:37:30 GET /api/status -> 200
+03:37:32 -> GET /api/status
+03:37:32 GET /api/status -> 200
+03:37:33 -> GET /api/status
+03:37:33 GET /api/status -> 200
+03:37:35 -> GET /api/status
+03:37:35 GET /api/status -> 200
+03:37:36 -> GET /api/status
+03:37:36 GET /api/status -> 200
+03:37:38 -> GET /api/status
+03:37:38 GET /api/status -> 200
+03:37:39 -> GET /api/status
+03:37:39 GET /api/status -> 200
+03:37:41 -> GET /api/status
+03:37:41 GET /api/status -> 200
+03:37:42 -> GET /api/status
+03:37:42 GET /api/status -> 200
+03:37:44 -> GET /api/status
+03:37:44 GET /api/status -> 200
+03:37:45 -> GET /api/status
+03:37:45 GET /api/status -> 200
+03:37:47 -> GET /api/status
+03:37:47 GET /api/status -> 200
+03:37:48 -> GET /api/status
+03:37:48 GET /api/status -> 200
+03:37:50 -> GET /api/status
+03:37:50 GET /api/status -> 200
+03:37:51 -> GET /api/status
+03:37:51 GET /api/status -> 200
+03:37:53 -> GET /api/status
+03:37:53 GET /api/status -> 200
+03:37:54 -> GET /api/status
+03:37:54 GET /api/status -> 200
+03:37:56 -> GET /api/status
+03:37:56 GET /api/status -> 200
+03:37:57 -> GET /api/status
+03:37:57 GET /api/status -> 200
+03:37:59 -> GET /api/status
+03:37:59 GET /api/status -> 200
+03:38:00 -> GET /api/status
+03:38:00 GET /api/status -> 200
+03:38:02 -> GET /api/status
+03:38:02 GET /api/status -> 200
+03:38:03 -> GET /api/status
+03:38:03 GET /api/status -> 200
+03:38:05 -> GET /api/status
+03:38:05 GET /api/status -> 200
+03:38:07 -> GET /api/status
+03:38:07 GET /api/status -> 200
+03:38:08 -> GET /api/status
+03:38:08 GET /api/status -> 200
+03:38:10 -> GET /api/status
+03:38:10 GET /api/status -> 200
+03:38:11 -> GET /api/status
+03:38:11 GET /api/status -> 200
+03:38:13 -> GET /api/status
+03:38:13 GET /api/status -> 200
+03:38:14 -> GET /api/status
+03:38:14 GET /api/status -> 200
+03:38:16 -> GET /api/status
+03:38:16 GET /api/status -> 200
+03:38:17 -> GET /api/status
+03:38:17 GET /api/status -> 200
+03:38:19 -> GET /api/status
+03:38:19 GET /api/status -> 200
+03:38:20 -> GET /api/status
+03:38:20 GET /api/status -> 200
+03:38:22 -> GET /api/status
+03:38:22 GET /api/status -> 200
+03:38:23 -> GET /api/status
+03:38:23 GET /api/status -> 200
+03:38:25 -> GET /api/status
+03:38:25 GET /api/status -> 200
+03:38:26 -> GET /api/status
+03:38:26 GET /api/status -> 200
+03:38:28 -> GET /api/status
+03:38:28 GET /api/status -> 200
+03:38:29 -> GET /api/status
+03:38:29 GET /api/status -> 200
+03:38:31 -> GET /api/status
+03:38:31 GET /api/status -> 200
+03:38:32 -> GET /api/status
+03:38:32 GET /api/status -> 200
+03:38:34 -> GET /api/status
+03:38:34 GET /api/status -> 200
+03:38:35 -> GET /api/status
+03:38:35 GET /api/status -> 200
+03:38:37 -> GET /api/status
+03:38:37 GET /api/status -> 200
+03:38:38 -> GET /api/status
+03:38:38 GET /api/status -> 200
+03:38:40 -> GET /api/status
+03:38:40 GET /api/status -> 200
+03:38:41 -> GET /api/status
+03:38:41 GET /api/status -> 200
+03:38:43 -> GET /api/status
+03:38:43 GET /api/status -> 200
+03:38:44 -> GET /api/status
+03:38:44 GET /api/status -> 200
+03:38:46 -> GET /api/status
+03:38:46 GET /api/status -> 200
+03:38:47 -> GET /api/status
+03:38:47 GET /api/status -> 200
+03:38:49 -> GET /api/status
+03:38:49 GET /api/status -> 200
+03:38:49 [rvc] worker start: python.exe | rvc-dir=D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer | model=assets/weights/Sonaro-kh.pth | index=(auto)
+03:38:50 -> GET /api/status
+03:38:50 GET /api/status -> 200
+03:38:52 -> GET /api/status
+03:38:52 GET /api/status -> 200
+03:38:53 -> GET /api/status
+03:38:53 GET /api/status -> 200
+03:38:55 -> GET /api/status
+03:38:55 GET /api/status -> 200
+03:38:56 -> GET /api/status
+03:38:56 GET /api/status -> 200
+03:38:58 -> GET /api/status
+03:38:58 GET /api/status -> 200
+03:38:59 -> GET /api/status
+03:38:59 GET /api/status -> 200
+03:39:01 -> GET /api/status
+03:39:01 GET /api/status -> 200
+03:39:02 -> GET /api/status
+03:39:02 GET /api/status -> 200
+03:39:04 -> GET /api/status
+03:39:04 GET /api/status -> 200
+03:39:05 -> GET /api/status
+03:39:05 GET /api/status -> 200
+03:39:07 -> GET /api/status
+03:39:07 GET /api/status -> 200
+03:39:08 -> GET /api/status
+03:39:08 GET /api/status -> 200
+03:39:10 -> GET /api/status
+03:39:10 GET /api/status -> 200
+03:39:10 -> GET /audio/e8af8b09cce8423384478d21b5d57b7d/wav
+04:08:04 -> GET /style_demos/sad_romantic.mp3
+13:36:01 -> GET /
+13:36:01 -> GET /api/beds
+13:36:01 GET /api/beds -> 200
+13:36:01 -> GET /api/rvc/status
+13:36:01 -> GET /api/enhance/status
+13:36:01 GET /api/enhance/status -> 200
+13:36:01 GET /api/rvc/status -> 200
+13:36:01 -> GET /api/ping
+13:36:01 GET /api/ping -> 200
+13:36:01 -> GET /api/enhance/status
+13:36:01 GET /api/voices -> 200
+13:36:01 GET /api/enhance/status -> 200
+13:36:08 -> POST /api/rvc/test
+13:36:08 -> GET /api/rvc/status
+13:36:08 GET /api/rvc/status -> 200
+13:36:23 -> POST /api/try
+13:36:29 -> GET /style_demos/sad_romantic.mp3
+13:36:37 -> POST /api/rvc/test
+13:36:39 -> GET /api/rvc/status
+13:36:39 GET /api/rvc/status -> 200
+13:36:40 -> GET /api/rvc/status
+13:36:40 GET /api/rvc/status -> 200
+13:38:00 -> POST /api/rvc/test
+13:38:00 -> GET /api/rvc/status
+13:38:00 GET /api/rvc/status -> 200
+13:38:17 -> POST /api/enhance/install
+13:38:17 POST /api/enhance/install -> 202
+13:38:17 -> GET /api/enhance/status
+13:38:17 GET /api/enhance/status -> 200
+13:38:21 -> GET /api/enhance/status
+13:38:21 GET /api/enhance/status -> 200
+13:38:23 -> POST /api/rvc/test
+13:38:23 -> GET /api/rvc/status
+13:38:23 GET /api/rvc/status -> 200
+13:38:25 -> GET /api/enhance/status
+13:38:25 GET /api/enhance/status -> 200
+13:38:29 -> GET /api/enhance/status
+13:38:29 GET /api/enhance/status -> 200
+13:38:33 -> GET /api/enhance/status
+13:38:33 GET /api/enhance/status -> 200
+13:38:37 -> GET /api/enhance/status
+13:38:37 GET /api/enhance/status -> 200
+13:38:41 -> GET /api/enhance/status
+13:38:41 GET /api/enhance/status -> 200
+13:38:45 -> GET /api/enhance/status
+13:38:45 GET /api/enhance/status -> 200
+13:38:49 -> GET /api/enhance/status
+13:38:49 GET /api/enhance/status -> 200
+13:38:53 -> GET /api/enhance/status
+13:38:53 GET /api/enhance/status -> 200
+13:38:57 -> GET /api/enhance/status
+13:38:57 GET /api/enhance/status -> 200
+13:39:01 -> GET /api/enhance/status
+13:39:01 GET /api/enhance/status -> 200
+13:39:05 -> GET /api/enhance/status
+13:39:05 GET /api/enhance/status -> 200
+13:39:09 -> GET /api/enhance/status
+13:39:09 GET /api/enhance/status -> 200
+13:39:13 -> GET /api/enhance/status
+13:39:13 GET /api/enhance/status -> 200
+13:39:17 -> GET /api/enhance/status
+13:39:17 GET /api/enhance/status -> 200
+13:39:21 -> GET /api/enhance/status
+13:39:21 GET /api/enhance/status -> 200
+13:39:25 -> GET /api/enhance/status
+13:39:25 GET /api/enhance/status -> 200
+13:39:29 -> GET /api/enhance/status
+13:39:29 GET /api/enhance/status -> 200
+13:39:33 -> GET /api/enhance/status
+13:39:33 GET /api/enhance/status -> 200
+13:39:37 -> GET /api/enhance/status
+13:39:37 GET /api/enhance/status -> 200
+13:39:41 -> GET /api/enhance/status
+13:39:41 GET /api/enhance/status -> 200
+13:39:45 -> GET /api/enhance/status
+13:39:45 GET /api/enhance/status -> 200
+13:39:49 -> GET /api/enhance/status
+13:39:49 GET /api/enhance/status -> 200
+13:39:53 -> GET /api/enhance/status
+13:39:53 GET /api/enhance/status -> 200
+13:39:57 -> GET /api/enhance/status
+13:39:57 GET /api/enhance/status -> 200
+13:40:01 -> GET /api/enhance/status
+13:40:01 GET /api/enhance/status -> 200
+13:40:05 -> GET /api/enhance/status
+13:40:05 GET /api/enhance/status -> 200
+13:40:09 -> GET /api/enhance/status
+13:40:09 GET /api/enhance/status -> 200
+13:40:13 -> GET /api/enhance/status
+13:40:13 GET /api/enhance/status -> 200
+13:40:17 -> GET /api/enhance/status
+13:40:17 GET /api/enhance/status -> 200
+13:40:21 -> GET /api/enhance/status
+13:40:21 GET /api/enhance/status -> 200
+13:40:25 -> GET /api/enhance/status
+13:40:25 GET /api/enhance/status -> 200
+13:40:29 -> GET /api/enhance/status
+13:40:29 GET /api/enhance/status -> 200
+14:26:32 -> GET /
+14:26:32 -> GET /api/beds
+14:26:32 GET /api/beds -> 200
+14:26:32 -> GET /api/rvc/status
+14:26:32 -> GET /api/enhance/status
+14:26:32 -> GET /api/ping
+14:26:32 GET /api/enhance/status -> 200
+14:26:32 GET /api/ping -> 200
+14:26:32 -> GET /api/voices
+14:26:32 -> GET /api/enhance/status
+14:26:32 GET /api/voices -> 200
+14:26:32 GET /api/enhance/status -> 200
+14:26:47 GET /api/rvc/status -> 200
+14:27:13 -> POST /api/try
+14:27:18 -> GET /style_demos/sad_romantic.mp3
+14:27:25 -> POST /api/try
+14:29:40 -> POST /api/rvc/test
+14:29:42 [rvc] worker start: python.exe | rvc-dir=D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer | model=assets/weights/Sonaro-kh.pth | index=(auto)
+14:29:42 -> GET /api/rvc/status
+14:29:44 GET /api/rvc/status -> 200
+14:29:45 -> GET /api/rvc/status
+14:29:47 GET /api/rvc/status -> 200
+14:29:47 -> GET /api/rvc/status
+14:29:49 GET /api/rvc/status -> 200
+14:29:50 -> GET /api/rvc/status
+14:29:52 GET /api/rvc/status -> 200
+14:29:52 -> GET /api/rvc/status
+14:29:54 GET /api/rvc/status -> 200
+14:29:55 -> GET /api/rvc/status
+14:29:57 GET /api/rvc/status -> 200
+14:29:57 -> GET /api/rvc/status
+14:29:59 GET /api/rvc/status -> 200
+14:30:00 -> GET /api/rvc/status
+14:30:02 GET /api/rvc/status -> 200
+14:30:02 -> GET /api/rvc/status
+14:30:04 GET /api/rvc/status -> 200
+14:30:05 -> GET /api/rvc/status
+14:30:05 GET /api/rvc/status -> 200
+14:30:05 -> GET /api/rvc/status
+14:30:05 GET /api/rvc/status -> 200
+14:30:52 -> GET /style_demos/sad_romantic.mp3
+14:31:02 -> POST /api/produce
+14:31:02 POST /api/produce -> 202
+14:31:03 -> GET /api/status
+14:31:03 GET /api/status -> 200
+14:31:05 -> GET /api/status
+14:31:05 GET /api/status -> 200
+14:31:06 -> GET /api/status
+14:31:06 GET /api/status -> 200
+14:31:08 -> GET /api/status
+14:31:08 GET /api/status -> 200
+14:31:09 -> GET /api/status
+14:31:09 GET /api/status -> 200
+14:31:11 -> GET /api/status
+14:31:11 GET /api/status -> 200
+14:31:12 -> GET /api/status
+14:31:12 GET /api/status -> 200
+14:31:14 -> GET /api/status
+14:31:14 GET /api/status -> 200
+14:31:15 -> GET /api/status
+14:31:15 GET /api/status -> 200
+14:31:17 -> GET /api/status
+14:31:17 GET /api/status -> 200
+14:31:18 -> GET /api/status
+14:31:18 GET /api/status -> 200
+14:31:20 -> GET /api/status
+14:31:20 GET /api/status -> 200
+14:31:21 -> GET /api/status
+14:31:21 GET /api/status -> 200
+14:31:23 -> GET /api/status
+14:31:23 GET /api/status -> 200
+14:31:24 -> GET /api/status
+14:31:24 GET /api/status -> 200
+14:31:26 -> GET /api/status
+14:31:26 GET /api/status -> 200
+14:31:26 -> GET /audio/4dcd9dfa4f1145409ce709f64ad651dd/wav
+14:36:41 -> GET /
+14:36:41 -> GET /api/beds
+14:36:41 -> GET /api/rvc/status
+14:36:41 GET /api/beds -> 200
+14:36:41 -> GET /api/enhance/status
+14:36:41 GET /api/enhance/status -> 200
+14:36:41 -> GET /api/ping
+14:36:41 GET /api/ping -> 200
+14:36:41 GET /api/rvc/status -> 200
+14:36:41 -> GET /api/voices
+14:36:41 GET /api/voices -> 200
+14:36:41 -> GET /api/enhance/status
+14:36:41 GET /api/enhance/status -> 200
+14:36:59 -> POST /api/produce
+14:36:59 POST /api/produce -> 202
+14:36:59 khmer frontend: pipeline/khmer_text.py loaded
+14:37:00 -> GET /api/status
+14:37:00 GET /api/status -> 200
+14:37:02 -> GET /api/status
+14:37:02 GET /api/status -> 200
+14:37:03 -> GET /api/status
+14:37:03 GET /api/status -> 200
+14:37:05 -> GET /api/status
+14:37:05 GET /api/status -> 200
+14:37:06 -> GET /api/status
+14:37:06 GET /api/status -> 200
+14:37:08 -> GET /api/status
+14:37:08 GET /api/status -> 200
+14:37:09 -> GET /api/status
+14:37:09 GET /api/status -> 200
+14:37:11 -> GET /api/status
+14:37:11 GET /api/status -> 200
+14:37:12 -> GET /api/status
+14:37:12 GET /api/status -> 200
+14:37:14 -> GET /api/status
+14:37:14 GET /api/status -> 200
+14:37:15 -> GET /api/status
+14:37:15 GET /api/status -> 200
+14:37:17 -> GET /api/status
+14:37:17 GET /api/status -> 200
+14:37:18 -> GET /api/status
+14:37:18 GET /api/status -> 200
+14:37:20 -> GET /api/status
+14:37:20 GET /api/status -> 200
+14:37:21 -> GET /api/status
+14:37:21 GET /api/status -> 200
+14:37:23 -> GET /api/status
+14:37:23 GET /api/status -> 200
+14:37:24 -> GET /api/status
+14:37:24 GET /api/status -> 200
+14:37:26 -> GET /api/status
+14:37:26 GET /api/status -> 200
+14:37:27 -> GET /api/status
+14:37:27 GET /api/status -> 200
+14:37:29 -> GET /api/status
+14:37:29 GET /api/status -> 200
+14:37:30 -> GET /api/status
+14:37:30 GET /api/status -> 200
+14:37:32 -> GET /api/status
+14:37:32 GET /api/status -> 200
+14:37:33 -> GET /api/status
+14:37:33 GET /api/status -> 200
+14:37:35 -> GET /api/status
+14:37:35 GET /api/status -> 200
+14:37:36 -> GET /api/status
+14:37:36 GET /api/status -> 200
+14:37:38 -> GET /api/status
+14:37:38 GET /api/status -> 200
+14:37:39 -> GET /api/status
+14:37:39 GET /api/status -> 200
+14:37:41 -> GET /api/status
+14:37:41 GET /api/status -> 200
+14:37:42 -> GET /api/status
+14:37:42 GET /api/status -> 200
+14:37:44 -> GET /api/status
+14:37:44 GET /api/status -> 200
+14:37:45 -> GET /api/status
+14:37:45 GET /api/status -> 200
+14:37:47 -> GET /api/status
+14:37:47 GET /api/status -> 200
+14:37:48 -> GET /api/status
+14:37:48 GET /api/status -> 200
+14:37:50 -> GET /api/status
+14:37:50 GET /api/status -> 200
+14:37:51 -> GET /api/status
+14:37:51 GET /api/status -> 200
+14:37:53 -> GET /api/status
+14:37:53 GET /api/status -> 200
+14:37:54 -> GET /api/status
+14:37:54 GET /api/status -> 200
+14:37:56 -> GET /api/status
+14:37:56 GET /api/status -> 200
+14:37:57 -> GET /api/status
+14:37:57 GET /api/status -> 200
+14:37:59 -> GET /api/status
+14:37:59 GET /api/status -> 200
+14:38:00 -> GET /api/status
+14:38:00 GET /api/status -> 200
+14:38:02 -> GET /api/status
+14:38:02 GET /api/status -> 200
+14:38:03 -> GET /api/status
+14:38:03 GET /api/status -> 200
+14:38:05 -> GET /api/status
+14:38:05 GET /api/status -> 200
+14:38:06 -> GET /api/status
+14:38:06 GET /api/status -> 200
+14:38:08 -> GET /api/status
+14:38:08 GET /api/status -> 200
+14:38:09 -> GET /api/status
+14:38:09 GET /api/status -> 200
+14:38:11 -> GET /api/status
+14:38:11 GET /api/status -> 200
+14:38:12 -> GET /api/status
+14:38:12 GET /api/status -> 200
+14:38:14 -> GET /api/status
+14:38:14 GET /api/status -> 200
+14:38:15 -> GET /api/status
+14:38:15 GET /api/status -> 200
+14:38:17 -> GET /api/status
+14:38:17 GET /api/status -> 200
+14:38:19 -> GET /api/status
+14:38:19 GET /api/status -> 200
+14:38:20 -> GET /api/status
+14:38:20 GET /api/status -> 200
+14:38:22 -> GET /api/status
+14:38:22 GET /api/status -> 200
+14:38:24 -> GET /api/status
+14:38:24 GET /api/status -> 200
+14:38:26 -> GET /api/status
+14:38:26 GET /api/status -> 200
+14:38:28 -> GET /api/status
+14:38:28 GET /api/status -> 200
+14:38:30 -> GET /api/status
+14:38:30 GET /api/status -> 200
+14:38:32 -> GET /api/status
+14:38:32 GET /api/status -> 200
+14:38:34 -> GET /api/status
+14:38:34 GET /api/status -> 200
+14:38:36 -> GET /api/status
+14:38:36 GET /api/status -> 200
+14:38:38 -> GET /api/status
+14:38:38 GET /api/status -> 200
+14:38:40 -> GET /api/status
+14:38:40 GET /api/status -> 200
+14:38:42 -> GET /api/status
+14:38:42 GET /api/status -> 200
+14:38:44 -> GET /api/status
+14:38:44 GET /api/status -> 200
+14:38:46 -> GET /api/status
+14:38:46 GET /api/status -> 200
+14:38:48 -> GET /api/status
+14:38:48 GET /api/status -> 200
+14:38:50 -> GET /api/status
+14:38:50 GET /api/status -> 200
+14:38:52 -> GET /api/status
+14:38:52 GET /api/status -> 200
+14:38:54 -> GET /api/status
+14:38:54 GET /api/status -> 200
+14:38:55 -> GET /api/status
+14:38:55 GET /api/status -> 200
+14:38:57 -> GET /api/status
+14:38:57 GET /api/status -> 200
+14:38:58 -> GET /api/status
+14:38:58 GET /api/status -> 200
+14:39:00 -> GET /api/status
+14:39:00 GET /api/status -> 200
+14:39:01 -> GET /api/status
+14:39:01 GET /api/status -> 200
+14:39:03 -> GET /api/status
+14:39:03 GET /api/status -> 200
+14:39:05 -> GET /api/status
+14:39:05 GET /api/status -> 200
+14:39:06 -> GET /api/status
+14:39:06 GET /api/status -> 200
+14:39:08 -> GET /api/status
+14:39:08 GET /api/status -> 200
+14:39:09 -> GET /api/status
+14:39:09 GET /api/status -> 200
+14:39:11 -> GET /api/status
+14:39:11 GET /api/status -> 200
+14:39:12 -> GET /api/status
+14:39:12 GET /api/status -> 200
+14:39:14 -> GET /api/status
+14:39:14 GET /api/status -> 200
+14:39:15 -> GET /api/status
+14:39:15 GET /api/status -> 200
+14:39:17 -> GET /api/status
+14:39:17 GET /api/status -> 200
+14:39:18 -> GET /api/status
+14:39:18 GET /api/status -> 200
+14:39:20 -> GET /api/status
+14:39:20 GET /api/status -> 200
+14:39:21 -> GET /api/status
+14:39:21 GET /api/status -> 200
+14:39:23 -> GET /api/status
+14:39:23 GET /api/status -> 200
+14:39:24 -> GET /api/status
+14:39:24 GET /api/status -> 200
+14:39:26 -> GET /api/status
+14:39:26 GET /api/status -> 200
+14:39:27 -> GET /api/status
+14:39:27 GET /api/status -> 200
+14:39:29 -> GET /api/status
+14:39:29 GET /api/status -> 200
+14:39:30 -> GET /api/status
+14:39:30 GET /api/status -> 200
+14:39:32 -> GET /api/status
+14:39:32 GET /api/status -> 200
+14:39:33 -> GET /api/status
+14:39:33 GET /api/status -> 200
+14:39:35 -> GET /api/status
+14:39:35 GET /api/status -> 200
+14:39:36 -> GET /api/status
+14:39:36 GET /api/status -> 200
+14:39:38 -> GET /api/status
+14:39:38 GET /api/status -> 200
+14:39:39 -> GET /api/status
+14:39:39 GET /api/status -> 200
+14:39:41 -> GET /api/status
+14:39:41 GET /api/status -> 200
+14:39:42 -> GET /api/status
+14:39:42 GET /api/status -> 200
+14:39:44 -> GET /api/status
+14:39:44 GET /api/status -> 200
+14:39:45 -> GET /api/status
+14:39:45 GET /api/status -> 200
+14:39:47 -> GET /api/status
+14:39:47 GET /api/status -> 200
+14:39:48 -> GET /api/status
+14:39:48 GET /api/status -> 200
+14:39:50 -> GET /api/status
+14:39:50 GET /api/status -> 200
+14:39:51 -> GET /api/status
+14:39:51 GET /api/status -> 200
+14:39:53 -> GET /api/status
+14:39:53 GET /api/status -> 200
+14:39:54 -> GET /api/status
+14:39:54 GET /api/status -> 200
+14:39:56 -> GET /api/status
+14:39:56 GET /api/status -> 200
+14:39:57 -> GET /api/status
+14:39:57 GET /api/status -> 200
+14:39:59 -> GET /api/status
+14:39:59 GET /api/status -> 200
+14:40:00 -> GET /api/status
+14:40:00 GET /api/status -> 200
+14:40:02 -> GET /api/status
+14:40:02 GET /api/status -> 200
+14:40:03 -> GET /api/status
+14:40:03 GET /api/status -> 200
+14:40:05 -> GET /api/status
+14:40:05 GET /api/status -> 200
+14:40:06 -> GET /api/status
+14:40:06 GET /api/status -> 200
+14:40:08 -> GET /api/status
+14:40:08 GET /api/status -> 200
+14:40:09 -> GET /api/status
+14:40:09 GET /api/status -> 200
+14:40:11 -> GET /api/status
+14:40:11 GET /api/status -> 200
+14:40:12 -> GET /api/status
+14:40:12 GET /api/status -> 200
+14:40:14 -> GET /api/status
+14:40:14 GET /api/status -> 200
+14:40:15 -> GET /api/status
+14:40:15 GET /api/status -> 200
+14:40:17 -> GET /api/status
+14:40:17 GET /api/status -> 200
+14:40:18 -> GET /api/status
+14:40:18 GET /api/status -> 200
+14:40:20 -> GET /api/status
+14:40:20 GET /api/status -> 200
+14:40:21 -> GET /api/status
+14:40:21 GET /api/status -> 200
+14:40:23 -> GET /api/status
+14:40:23 GET /api/status -> 200
+14:40:25 -> GET /api/status
+14:40:25 GET /api/status -> 200
+14:40:26 -> GET /api/status
+14:40:26 GET /api/status -> 200
+14:40:28 -> GET /api/status
+14:40:28 GET /api/status -> 200
+14:40:29 -> GET /api/status
+14:40:29 GET /api/status -> 200
+14:40:31 -> GET /api/status
+14:40:31 GET /api/status -> 200
+14:40:32 -> GET /api/status
+14:40:32 GET /api/status -> 200
+14:40:34 -> GET /api/status
+14:40:34 GET /api/status -> 200
+14:40:35 -> GET /api/status
+14:40:35 GET /api/status -> 200
+14:40:37 -> GET /api/status
+14:40:37 GET /api/status -> 200
+14:40:38 -> GET /api/status
+14:40:38 GET /api/status -> 200
+14:40:40 -> GET /api/status
+14:40:40 GET /api/status -> 200
+14:40:41 -> GET /api/status
+14:40:41 GET /api/status -> 200
+14:40:43 -> GET /api/status
+14:40:43 GET /api/status -> 200
+14:40:44 -> GET /api/status
+14:40:44 GET /api/status -> 200
+14:40:46 -> GET /api/status
+14:40:46 GET /api/status -> 200
+14:40:47 -> GET /api/status
+14:40:47 GET /api/status -> 200
+14:40:49 -> GET /api/status
+14:40:49 GET /api/status -> 200
+14:40:50 -> GET /api/status
+14:40:50 GET /api/status -> 200
+14:40:52 -> GET /api/status
+14:40:52 GET /api/status -> 200
+14:40:53 -> GET /api/status
+14:40:53 GET /api/status -> 200
+14:40:55 -> GET /api/status
+14:40:55 GET /api/status -> 200
+14:40:56 -> GET /api/status
+14:40:56 GET /api/status -> 200
+14:40:58 -> GET /api/status
+14:40:58 GET /api/status -> 200
+14:40:59 -> GET /api/status
+14:40:59 GET /api/status -> 200
+14:41:01 -> GET /api/status
+14:41:01 GET /api/status -> 200
+14:41:02 -> GET /api/status
+14:41:02 GET /api/status -> 200
+14:41:04 -> GET /api/status
+14:41:04 GET /api/status -> 200
+14:41:05 -> GET /api/status
+14:41:05 GET /api/status -> 200
+14:41:07 -> GET /api/status
+14:41:07 GET /api/status -> 200
+14:41:08 -> GET /api/status
+14:41:08 GET /api/status -> 200
+14:41:10 -> GET /api/status
+14:41:10 GET /api/status -> 200
+14:41:11 -> GET /api/status
+14:41:11 GET /api/status -> 200
+14:41:13 -> GET /api/status
+14:41:13 GET /api/status -> 200
+14:41:14 -> GET /api/status
+14:41:14 GET /api/status -> 200
+14:41:16 -> GET /api/status
+14:41:16 GET /api/status -> 200
+14:41:17 -> GET /api/status
+14:41:17 GET /api/status -> 200
+14:41:19 -> GET /api/status
+14:41:19 GET /api/status -> 200
+14:41:20 -> GET /api/status
+14:41:20 GET /api/status -> 200
+14:41:22 -> GET /api/status
+14:41:22 GET /api/status -> 200
+14:41:23 -> GET /api/status
+14:41:23 GET /api/status -> 200
+14:41:25 -> GET /api/status
+14:41:25 GET /api/status -> 200
+14:41:26 -> GET /api/status
+14:41:26 GET /api/status -> 200
+14:41:28 -> GET /api/status
+14:41:28 GET /api/status -> 200
+14:41:29 -> GET /api/status
+14:41:29 GET /api/status -> 200
+14:41:31 -> GET /api/status
+14:41:31 GET /api/status -> 200
+14:41:32 -> GET /api/status
+14:41:32 GET /api/status -> 200
+14:41:34 -> GET /api/status
+14:41:34 GET /api/status -> 200
+14:41:35 -> GET /api/status
+14:41:35 GET /api/status -> 200
+14:41:37 -> GET /api/status
+14:41:37 GET /api/status -> 200
+14:41:38 -> GET /api/status
+14:41:38 GET /api/status -> 200
+14:41:40 -> GET /api/status
+14:41:40 GET /api/status -> 200
+14:41:41 -> GET /api/status
+14:41:41 GET /api/status -> 200
+14:41:43 -> GET /api/status
+14:41:43 GET /api/status -> 200
+14:41:44 -> GET /api/status
+14:41:44 GET /api/status -> 200
+14:41:46 -> GET /api/status
+14:41:46 GET /api/status -> 200
+14:41:47 -> GET /api/status
+14:41:47 GET /api/status -> 200
+14:41:49 -> GET /api/status
+14:41:49 GET /api/status -> 200
+14:41:50 -> GET /api/status
+14:41:50 GET /api/status -> 200
+14:41:52 -> GET /api/status
+14:41:52 GET /api/status -> 200
+14:41:54 -> GET /api/status
+14:41:54 GET /api/status -> 200
+14:41:55 -> GET /api/status
+14:41:55 GET /api/status -> 200
+14:41:57 -> GET /api/status
+14:41:57 GET /api/status -> 200
+14:41:58 -> GET /api/status
+14:41:58 GET /api/status -> 200
+14:42:00 -> GET /api/status
+14:42:00 GET /api/status -> 200
+14:42:01 -> GET /api/status
+14:42:01 GET /api/status -> 200
+14:42:03 -> GET /api/status
+14:42:03 GET /api/status -> 200
+14:42:04 -> GET /api/status
+14:42:04 GET /api/status -> 200
+14:42:06 -> GET /api/status
+14:42:06 GET /api/status -> 200
+14:42:07 -> GET /api/status
+14:42:07 GET /api/status -> 200
+14:42:09 -> GET /api/status
+14:42:09 GET /api/status -> 200
+14:42:10 -> GET /api/status
+14:42:10 GET /api/status -> 200
+14:42:12 -> GET /api/status
+14:42:12 GET /api/status -> 200
+14:42:13 -> GET /api/status
+14:42:13 GET /api/status -> 200
+14:42:15 -> GET /api/status
+14:42:15 GET /api/status -> 200
+14:42:16 -> GET /api/status
+14:42:16 GET /api/status -> 200
+14:42:18 -> GET /api/status
+14:42:18 GET /api/status -> 200
+14:42:19 -> GET /api/status
+14:42:19 GET /api/status -> 200
+14:42:21 -> GET /api/status
+14:42:21 GET /api/status -> 200
+14:42:22 -> GET /api/status
+14:42:22 GET /api/status -> 200
+14:42:24 -> GET /api/status
+14:42:24 GET /api/status -> 200
+14:42:25 -> GET /api/status
+14:42:25 GET /api/status -> 200
+14:42:27 -> GET /api/status
+14:42:27 GET /api/status -> 200
+14:42:28 -> GET /api/status
+14:42:28 GET /api/status -> 200
+14:42:28 -> GET /audio/90ab917ccc6849cc946b6fc32b2a0d0f/wav
+14:44:48 -> GET /style_demos/sad_romantic.mp3
+14:44:53 -> POST /api/produce
+14:44:53 POST /api/produce -> 202
+14:44:55 -> GET /api/status
+14:44:55 GET /api/status -> 200
+14:44:56 -> GET /api/status
+14:44:56 GET /api/status -> 200
+14:44:58 -> GET /api/status
+14:44:58 GET /api/status -> 200
+14:44:59 -> GET /api/status
+14:44:59 GET /api/status -> 200
+14:45:01 -> GET /api/status
+14:45:01 GET /api/status -> 200
+14:45:02 -> GET /api/status
+14:45:02 GET /api/status -> 200
+14:45:04 -> GET /api/status
+14:45:04 GET /api/status -> 200
+14:45:05 -> GET /api/status
+14:45:05 GET /api/status -> 200
+14:45:07 -> GET /api/status
+14:45:07 GET /api/status -> 200
+14:45:08 -> GET /api/status
+14:45:08 GET /api/status -> 200
+14:45:10 -> GET /api/status
+14:45:10 GET /api/status -> 200
+14:45:11 -> GET /api/status
+14:45:11 GET /api/status -> 200
+14:45:13 -> GET /api/status
+14:45:13 GET /api/status -> 200
+14:45:15 -> GET /api/status
+14:45:15 GET /api/status -> 200
+14:45:16 -> GET /api/status
+14:45:16 GET /api/status -> 200
+14:45:18 -> GET /api/status
+14:45:18 GET /api/status -> 200
+14:45:19 -> GET /api/status
+14:45:19 GET /api/status -> 200
+14:45:21 -> GET /api/status
+14:45:21 GET /api/status -> 200
+14:45:22 -> GET /api/status
+14:45:22 GET /api/status -> 200
+14:45:24 -> GET /api/status
+14:45:24 GET /api/status -> 200
+14:45:25 -> GET /api/status
+14:45:25 GET /api/status -> 200
+14:45:27 -> GET /api/status
+14:45:27 GET /api/status -> 200
+14:45:28 -> GET /api/status
+14:45:28 GET /api/status -> 200
+14:45:30 -> GET /api/status
+14:45:30 GET /api/status -> 200
+14:45:31 -> GET /api/status
+14:45:31 GET /api/status -> 200
+14:45:33 -> GET /api/status
+14:45:33 GET /api/status -> 200
+14:45:34 -> GET /api/status
+14:45:34 GET /api/status -> 200
+14:45:36 -> GET /api/status
+14:45:36 GET /api/status -> 200
+14:45:37 -> GET /api/status
+14:45:37 GET /api/status -> 200
+14:45:39 -> GET /api/status
+14:45:39 GET /api/status -> 200
+14:45:40 -> GET /api/status
+14:45:40 GET /api/status -> 200
+14:45:42 -> GET /api/status
+14:45:42 GET /api/status -> 200
+14:45:43 -> GET /api/status
+14:45:43 GET /api/status -> 200
+14:45:45 -> GET /api/status
+14:45:45 GET /api/status -> 200
+14:45:46 -> GET /api/status
+14:45:46 GET /api/status -> 200
+14:45:48 -> GET /api/status
+14:45:48 GET /api/status -> 200
+14:45:49 -> GET /api/status
+14:45:49 GET /api/status -> 200
+14:45:51 -> GET /api/status
+14:45:51 GET /api/status -> 200
+14:45:52 -> GET /api/status
+14:45:52 GET /api/status -> 200
+14:45:54 -> GET /api/status
+14:45:54 GET /api/status -> 200
+14:45:55 -> GET /api/status
+14:45:55 GET /api/status -> 200
+14:45:57 -> GET /api/status
+14:45:57 GET /api/status -> 200
+14:45:58 -> GET /api/status
+14:45:58 GET /api/status -> 200
+14:46:00 -> GET /api/status
+14:46:00 GET /api/status -> 200
+14:46:01 -> GET /api/status
+14:46:01 GET /api/status -> 200
+14:46:03 -> GET /api/status
+14:46:03 GET /api/status -> 200
+14:46:04 -> GET /api/status
+14:46:04 GET /api/status -> 200
+14:46:06 -> GET /api/status
+14:46:06 GET /api/status -> 200
+14:46:07 -> GET /api/status
+14:46:07 GET /api/status -> 200
+14:46:09 -> GET /api/status
+14:46:09 GET /api/status -> 200
+14:46:10 -> GET /api/status
+14:46:10 GET /api/status -> 200
+14:46:12 -> GET /api/status
+14:46:12 GET /api/status -> 200
+14:46:13 -> GET /api/status
+14:46:13 GET /api/status -> 200
+14:46:15 -> GET /api/status
+14:46:15 GET /api/status -> 200
+14:46:16 -> GET /api/status
+14:46:16 GET /api/status -> 200
+14:46:17 [rvc] worker start: python.exe | rvc-dir=D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer | model=assets/weights/Sonaro-kh.pth | index=(auto)
+14:46:18 -> GET /api/status
+14:46:18 GET /api/status -> 200
+14:46:19 -> GET /api/status
+14:46:19 GET /api/status -> 200
+14:46:21 -> GET /api/status
+14:46:21 GET /api/status -> 200
+14:46:22 -> GET /api/status
+14:46:22 GET /api/status -> 200
+14:46:24 -> GET /api/status
+14:46:24 GET /api/status -> 200
+14:46:25 -> GET /api/status
+14:46:25 GET /api/status -> 200
+14:46:27 -> GET /api/status
+14:46:27 GET /api/status -> 200
+14:46:28 -> GET /api/status
+14:46:28 GET /api/status -> 200
+14:46:30 -> GET /api/status
+14:46:30 GET /api/status -> 200
+14:46:31 -> GET /api/status
+14:46:31 GET /api/status -> 200
+14:46:33 -> GET /api/status
+14:46:33 GET /api/status -> 200
+14:46:34 -> GET /api/status
+14:46:34 GET /api/status -> 200
+14:46:36 -> GET /api/status
+14:46:36 GET /api/status -> 200
+14:46:37 -> GET /api/status
+14:46:37 GET /api/status -> 200
+14:46:39 -> GET /api/status
+14:46:39 GET /api/status -> 200
+14:46:41 -> GET /api/status
+14:46:41 GET /api/status -> 200
+14:46:42 -> GET /api/status
+14:46:42 GET /api/status -> 200
+14:46:44 -> GET /api/status
+14:46:44 GET /api/status -> 200
+14:46:45 -> GET /api/status
+14:46:45 GET /api/status -> 200
+14:46:47 -> GET /api/status
+14:46:47 GET /api/status -> 200
+14:46:48 -> GET /api/status
+14:46:48 GET /api/status -> 200
+14:46:50 -> GET /api/status
+14:46:50 GET /api/status -> 200
+14:46:51 -> GET /api/status
+14:46:51 GET /api/status -> 200
+14:46:53 -> GET /api/status
+14:46:53 GET /api/status -> 200
+14:46:54 -> GET /api/status
+14:46:54 GET /api/status -> 200
+14:46:56 -> GET /api/status
+14:46:56 GET /api/status -> 200
+14:46:57 -> GET /api/status
+14:46:57 GET /api/status -> 200
+14:46:59 -> GET /api/status
+14:46:59 GET /api/status -> 200
+14:47:00 -> GET /api/status
+14:47:00 GET /api/status -> 200
+14:47:02 -> GET /api/status
+14:47:02 GET /api/status -> 200
+14:47:03 -> GET /api/status
+14:47:03 GET /api/status -> 200
+14:47:05 -> GET /api/status
+14:47:05 GET /api/status -> 200
+14:47:06 -> GET /api/status
+14:47:06 GET /api/status -> 200
+14:47:08 -> GET /api/status
+14:47:08 GET /api/status -> 200
+14:47:09 -> GET /api/status
+14:47:09 GET /api/status -> 200
+14:47:11 -> GET /api/status
+14:47:11 GET /api/status -> 200
+14:47:12 -> GET /api/status
+14:47:12 GET /api/status -> 200
+14:47:14 -> GET /api/status
+14:47:14 GET /api/status -> 200
+14:47:15 -> GET /api/status
+14:47:15 GET /api/status -> 200
+14:47:17 -> GET /api/status
+14:47:17 GET /api/status -> 200
+14:47:18 -> GET /api/status
+14:47:18 GET /api/status -> 200
+14:47:20 -> GET /api/status
+14:47:20 GET /api/status -> 200
+14:47:21 -> GET /api/status
+14:47:21 GET /api/status -> 200
+14:47:23 -> GET /api/status
+14:47:23 GET /api/status -> 200
+14:47:24 -> GET /api/status
+14:47:24 GET /api/status -> 200
+14:47:26 -> GET /api/status
+14:47:26 GET /api/status -> 200
+14:47:27 -> GET /api/status
+14:47:27 GET /api/status -> 200
+14:47:29 -> GET /api/status
+14:47:29 GET /api/status -> 200
+14:47:30 -> GET /api/status
+14:47:30 GET /api/status -> 200
+14:47:32 -> GET /api/status
+14:47:32 GET /api/status -> 200
+14:47:33 -> GET /api/status
+14:47:33 GET /api/status -> 200
+14:47:35 -> GET /api/status
+14:47:35 GET /api/status -> 200
+14:47:36 -> GET /api/status
+14:47:36 GET /api/status -> 200
+14:47:38 -> GET /api/status
+14:47:38 GET /api/status -> 200
+14:47:40 -> GET /api/status
+14:47:40 GET /api/status -> 200
+14:47:41 -> GET /api/status
+14:47:41 GET /api/status -> 200
+14:47:43 -> GET /api/status
+14:47:43 GET /api/status -> 200
+14:47:44 -> GET /api/status
+14:47:44 GET /api/status -> 200
+14:47:46 -> GET /api/status
+14:47:46 GET /api/status -> 200
+14:47:47 -> GET /api/status
+14:47:47 GET /api/status -> 200
+14:47:49 -> GET /api/status
+14:47:49 GET /api/status -> 200
+14:47:50 -> GET /api/status
+14:47:50 GET /api/status -> 200
+14:47:52 -> GET /api/status
+14:47:52 GET /api/status -> 200
+14:47:53 -> GET /api/status
+14:47:53 GET /api/status -> 200
+14:47:55 -> GET /api/status
+14:47:55 GET /api/status -> 200
+14:47:56 -> GET /api/status
+14:47:56 GET /api/status -> 200
+14:47:58 -> GET /api/status
+14:47:58 GET /api/status -> 200
+14:47:59 -> GET /api/status
+14:47:59 GET /api/status -> 200
+14:48:01 -> GET /api/status
+14:48:01 GET /api/status -> 200
+14:48:02 -> GET /api/status
+14:48:02 GET /api/status -> 200
+14:48:04 -> GET /api/status
+14:48:04 GET /api/status -> 200
+14:48:05 -> GET /api/status
+14:48:05 GET /api/status -> 200
+14:48:07 -> GET /api/status
+14:48:07 GET /api/status -> 200
+14:48:08 -> GET /api/status
+14:48:08 GET /api/status -> 200
+14:48:10 -> GET /api/status
+14:48:10 GET /api/status -> 200
+14:48:11 -> GET /api/status
+14:48:11 GET /api/status -> 200
+14:48:13 -> GET /api/status
+14:48:13 GET /api/status -> 200
+14:48:14 -> GET /api/status
+14:48:14 GET /api/status -> 200
+14:48:16 -> GET /api/status
+14:48:16 GET /api/status -> 200
+14:48:17 -> GET /api/status
+14:48:17 GET /api/status -> 200
+14:48:19 -> GET /api/status
+14:48:19 GET /api/status -> 200
+14:48:20 -> GET /api/status
+14:48:20 GET /api/status -> 200
+14:48:22 -> GET /api/status
+14:48:22 GET /api/status -> 200
+14:48:23 -> GET /api/status
+14:48:23 GET /api/status -> 200
+14:48:25 -> GET /api/status
+14:48:25 GET /api/status -> 200
+14:48:26 -> GET /api/status
+14:48:26 GET /api/status -> 200
+14:48:28 -> GET /api/status
+14:48:28 GET /api/status -> 200
+14:48:29 -> GET /api/status
+14:48:29 GET /api/status -> 200
+14:48:31 -> GET /api/status
+14:48:31 GET /api/status -> 200
+14:48:32 -> GET /api/status
+14:48:32 GET /api/status -> 200
+14:48:34 -> GET /api/status
+14:48:34 GET /api/status -> 200
+14:48:35 -> GET /api/status
+14:48:35 GET /api/status -> 200
+14:48:37 -> GET /api/status
+14:48:37 GET /api/status -> 200
+14:48:38 -> GET /api/status
+14:48:38 GET /api/status -> 200
+14:48:40 -> GET /api/status
+14:48:40 GET /api/status -> 200
+14:48:41 -> GET /api/status
+14:48:41 GET /api/status -> 200
+14:48:43 -> GET /api/status
+14:48:43 GET /api/status -> 200
+14:48:44 -> GET /api/status
+14:48:44 GET /api/status -> 200
+14:48:46 -> GET /api/status
+14:48:46 GET /api/status -> 200
+14:48:47 -> GET /api/status
+14:48:47 GET /api/status -> 200
+14:48:49 -> GET /api/status
+14:48:49 GET /api/status -> 200
+14:48:50 -> GET /api/status
+14:48:50 GET /api/status -> 200
+14:48:52 -> GET /api/status
+14:48:52 GET /api/status -> 200
+14:48:54 -> GET /api/status
+14:48:54 GET /api/status -> 200
+14:48:55 -> GET /api/status
+14:48:55 GET /api/status -> 200
+14:48:57 -> GET /api/status
+14:48:57 GET /api/status -> 200
+14:48:58 -> GET /api/status
+14:48:58 GET /api/status -> 200
+14:49:00 -> GET /api/status
+14:49:00 GET /api/status -> 200
+14:49:01 -> GET /api/status
+14:49:01 GET /api/status -> 200
+14:49:03 -> GET /api/status
+14:49:03 GET /api/status -> 200
+14:49:04 -> GET /api/status
+14:49:04 GET /api/status -> 200
+14:49:06 -> GET /api/status
+14:49:06 GET /api/status -> 200
+14:49:07 -> GET /api/status
+14:49:07 GET /api/status -> 200
+14:49:09 -> GET /api/status
+14:49:09 GET /api/status -> 200
+14:49:10 -> GET /api/status
+14:49:10 GET /api/status -> 200
+14:49:12 -> GET /api/status
+14:49:12 GET /api/status -> 200
+14:49:13 -> GET /api/status
+14:49:13 GET /api/status -> 200
+14:49:15 -> GET /api/status
+14:49:15 GET /api/status -> 200
+14:49:16 -> GET /api/status
+14:49:16 GET /api/status -> 200
+14:49:18 -> GET /api/status
+14:49:18 GET /api/status -> 200
+14:49:19 -> GET /api/status
+14:49:19 GET /api/status -> 200
+14:49:21 -> GET /api/status
+14:49:21 GET /api/status -> 200
+14:49:22 -> GET /api/status
+14:49:22 GET /api/status -> 200
+14:49:24 -> GET /api/status
+14:49:24 GET /api/status -> 200
+14:49:25 -> GET /api/status
+14:49:25 GET /api/status -> 200
+14:49:27 -> GET /api/status
+14:49:27 GET /api/status -> 200
+14:49:28 -> GET /api/status
+14:49:28 GET /api/status -> 200
+14:49:30 -> GET /api/status
+14:49:30 GET /api/status -> 200
+14:49:31 -> GET /api/status
+14:49:31 GET /api/status -> 200
+14:49:33 -> GET /api/status
+14:49:33 GET /api/status -> 200
+14:49:34 -> GET /api/status
+14:49:34 GET /api/status -> 200
+14:49:36 -> GET /api/status
+14:49:36 GET /api/status -> 200
+14:49:37 -> GET /api/status
+14:49:37 GET /api/status -> 200
+14:49:39 -> GET /api/status
+14:49:39 GET /api/status -> 200
+14:49:40 -> GET /api/status
+14:49:40 GET /api/status -> 200
+14:49:42 -> GET /api/status
+14:49:42 GET /api/status -> 200
+14:49:43 -> GET /api/status
+14:49:43 GET /api/status -> 200
+14:49:45 -> GET /api/status
+14:49:45 GET /api/status -> 200
+14:49:46 -> GET /api/status
+14:49:46 GET /api/status -> 200
+14:49:48 -> GET /api/status
+14:49:48 GET /api/status -> 200
+14:49:49 -> GET /api/status
+14:49:49 GET /api/status -> 200
+14:49:51 -> GET /api/status
+14:49:51 GET /api/status -> 200
+14:49:52 -> GET /api/status
+14:49:52 GET /api/status -> 200
+14:49:54 -> GET /api/status
+14:49:54 GET /api/status -> 200
+14:49:55 -> GET /api/status
+14:49:55 GET /api/status -> 200
+14:49:57 -> GET /api/status
+14:49:57 GET /api/status -> 200
+14:49:58 -> GET /api/status
+14:49:58 GET /api/status -> 200
+14:50:00 -> GET /api/status
+14:50:00 GET /api/status -> 200
+14:50:01 -> GET /api/status
+14:50:01 GET /api/status -> 200
+14:50:03 -> GET /api/status
+14:50:03 GET /api/status -> 200
+14:50:04 -> GET /api/status
+14:50:04 GET /api/status -> 200
+14:50:06 -> GET /api/status
+14:50:06 GET /api/status -> 200
+14:50:07 -> GET /api/status
+14:50:07 GET /api/status -> 200
+14:50:09 -> GET /api/status
+14:50:09 GET /api/status -> 200
+14:50:10 -> GET /api/status
+14:50:10 GET /api/status -> 200
+14:50:12 -> GET /api/status
+14:50:12 GET /api/status -> 200
+14:50:13 -> GET /api/status
+14:50:13 GET /api/status -> 200
+14:50:15 -> GET /api/status
+14:50:15 GET /api/status -> 200
+14:50:17 -> GET /api/status
+14:50:17 GET /api/status -> 200
+14:50:18 -> GET /api/status
+14:50:18 GET /api/status -> 200
+14:50:20 -> GET /api/status
+14:50:20 GET /api/status -> 200
+14:50:21 -> GET /api/status
+14:50:21 GET /api/status -> 200
+14:50:23 -> GET /api/status
+14:50:23 GET /api/status -> 200
+14:50:24 -> GET /api/status
+14:50:24 GET /api/status -> 200
+14:50:26 -> GET /api/status
+14:50:26 GET /api/status -> 200
+14:50:27 -> GET /api/status
+14:50:27 GET /api/status -> 200
+14:50:29 -> GET /api/status
+14:50:29 GET /api/status -> 200
+14:50:30 -> GET /api/status
+14:50:30 GET /api/status -> 200
+14:50:32 -> GET /api/status
+14:50:32 GET /api/status -> 200
+14:50:33 -> GET /api/status
+14:50:33 GET /api/status -> 200
+14:50:35 -> GET /api/status
+14:50:35 GET /api/status -> 200
+14:50:36 -> GET /api/status
+14:50:36 GET /api/status -> 200
+14:50:38 -> GET /api/status
+14:50:38 GET /api/status -> 200
+14:50:39 -> GET /api/status
+14:50:39 GET /api/status -> 200
+14:50:41 -> GET /api/status
+14:50:41 GET /api/status -> 200
+14:50:42 -> GET /api/status
+14:50:42 GET /api/status -> 200
+14:50:44 -> GET /api/status
+14:50:44 GET /api/status -> 200
+14:50:45 -> GET /api/status
+14:50:45 GET /api/status -> 200
+14:50:47 -> GET /api/status
+14:50:47 GET /api/status -> 200
+14:50:48 -> GET /api/status
+14:50:48 GET /api/status -> 200
+14:50:50 -> GET /api/status
+14:50:50 GET /api/status -> 200
+14:50:51 -> GET /api/status
+14:50:51 GET /api/status -> 200
+14:50:53 -> GET /api/status
+14:50:53 GET /api/status -> 200
+14:50:54 -> GET /api/status
+14:50:54 GET /api/status -> 200
+14:50:56 -> GET /api/status
+14:50:56 GET /api/status -> 200
+14:50:57 -> GET /api/status
+14:50:57 GET /api/status -> 200
+14:50:59 -> GET /api/status
+14:50:59 GET /api/status -> 200
+14:51:00 -> GET /api/status
+14:51:00 GET /api/status -> 200
+14:51:02 -> GET /api/status
+14:51:02 GET /api/status -> 200
+14:51:03 -> GET /api/status
+14:51:03 GET /api/status -> 200
+14:51:05 -> GET /api/status
+14:51:05 GET /api/status -> 200
+14:51:06 -> GET /api/status
+14:51:06 GET /api/status -> 200
+14:51:08 -> GET /api/status
+14:51:08 GET /api/status -> 200
+14:51:09 -> GET /api/status
+14:51:09 GET /api/status -> 200
+14:51:11 -> GET /api/status
+14:51:11 GET /api/status -> 200
+14:51:12 -> GET /api/status
+14:51:12 GET /api/status -> 200
+14:51:14 -> GET /api/status
+14:51:14 GET /api/status -> 200
+14:51:15 -> GET /api/status
+14:51:15 GET /api/status -> 200
+14:51:17 -> GET /api/status
+14:51:17 GET /api/status -> 200
+14:51:18 -> GET /api/status
+14:51:18 GET /api/status -> 200
+14:51:20 -> GET /api/status
+14:51:20 GET /api/status -> 200
+14:51:21 -> GET /api/status
+14:51:21 GET /api/status -> 200
+14:51:23 -> GET /api/status
+14:51:23 GET /api/status -> 200
+14:51:24 -> GET /api/status
+14:51:24 GET /api/status -> 200
+14:51:26 -> GET /api/status
+14:51:26 GET /api/status -> 200
+14:51:27 -> GET /api/status
+14:51:27 GET /api/status -> 200
+14:51:29 -> GET /api/status
+14:51:29 GET /api/status -> 200
+14:51:30 -> GET /api/status
+14:51:30 GET /api/status -> 200
+14:51:32 -> GET /api/status
+14:51:32 GET /api/status -> 200
+14:51:33 -> GET /api/status
+14:51:33 GET /api/status -> 200
+14:51:35 -> GET /api/status
+14:51:35 GET /api/status -> 200
+14:51:36 -> GET /api/status
+14:51:36 GET /api/status -> 200
+14:51:38 -> GET /api/status
+14:51:38 GET /api/status -> 200
+14:51:40 -> GET /api/status
+14:51:40 GET /api/status -> 200
+14:51:41 -> GET /api/status
+14:51:41 GET /api/status -> 200
+14:51:43 -> GET /api/status
+14:51:43 GET /api/status -> 200
+14:51:44 -> GET /api/status
+14:51:44 GET /api/status -> 200
+14:51:46 -> GET /api/status
+14:51:46 GET /api/status -> 200
+14:51:47 -> GET /api/status
+14:51:47 GET /api/status -> 200
+14:51:49 -> GET /api/status
+14:51:49 GET /api/status -> 200
+14:51:50 -> GET /api/status
+14:51:50 GET /api/status -> 200
+14:51:52 -> GET /api/status
+14:51:52 GET /api/status -> 200
+14:51:53 -> GET /api/status
+14:51:53 GET /api/status -> 200
+14:51:55 -> GET /api/status
+14:51:55 GET /api/status -> 200
+14:51:56 -> GET /api/status
+14:51:56 GET /api/status -> 200
+14:51:58 -> GET /api/status
+14:51:58 GET /api/status -> 200
+14:51:59 -> GET /api/status
+14:51:59 GET /api/status -> 200
+14:52:01 -> GET /api/status
+14:52:01 GET /api/status -> 200
+14:52:02 -> GET /api/status
+14:52:02 GET /api/status -> 200
+14:52:04 -> GET /api/status
+14:52:04 GET /api/status -> 200
+14:52:05 -> GET /api/status
+14:52:05 GET /api/status -> 200
+14:52:07 -> GET /api/status
+14:52:07 GET /api/status -> 200
+14:52:08 -> GET /api/status
+14:52:08 GET /api/status -> 200
+14:52:10 -> GET /api/status
+14:52:10 GET /api/status -> 200
+14:52:11 -> GET /api/status
+14:52:11 GET /api/status -> 200
+14:52:13 -> GET /api/status
+14:52:13 GET /api/status -> 200
+14:52:14 -> GET /api/status
+14:52:14 GET /api/status -> 200
+14:52:16 -> GET /api/status
+14:52:16 GET /api/status -> 200
+14:52:17 -> GET /api/status
+14:52:17 GET /api/status -> 200
+14:52:19 -> GET /api/status
+14:52:19 GET /api/status -> 200
+14:52:20 -> GET /api/status
+14:52:20 GET /api/status -> 200
+14:52:22 -> GET /api/status
+14:52:22 GET /api/status -> 200
+14:52:23 -> GET /api/status
+14:52:23 GET /api/status -> 200
+14:52:25 -> GET /api/status
+14:52:25 GET /api/status -> 200
+14:52:26 -> GET /api/status
+14:52:26 GET /api/status -> 200
+14:52:28 -> GET /api/status
+14:52:28 GET /api/status -> 200
+14:52:29 -> GET /api/status
+14:52:29 GET /api/status -> 200
+14:52:31 -> GET /api/status
+14:52:31 GET /api/status -> 200
+14:52:32 -> GET /api/status
+14:52:32 GET /api/status -> 200
+14:52:34 -> GET /api/status
+14:52:34 GET /api/status -> 200
+14:52:35 -> GET /api/status
+14:52:35 GET /api/status -> 200
+14:52:37 -> GET /api/status
+14:52:37 GET /api/status -> 200
+14:52:38 -> GET /api/status
+14:52:38 GET /api/status -> 200
+14:52:40 -> GET /api/status
+14:52:40 GET /api/status -> 200
+14:52:41 -> GET /api/status
+14:52:41 GET /api/status -> 200
+14:52:43 -> GET /api/status
+14:52:43 GET /api/status -> 200
+14:52:44 -> GET /api/status
+14:52:44 GET /api/status -> 200
+14:52:46 -> GET /api/status
+14:52:46 GET /api/status -> 200
+14:52:47 -> GET /api/status
+14:52:47 GET /api/status -> 200
+14:52:49 -> GET /api/status
+14:52:49 GET /api/status -> 200
+14:52:50 -> GET /api/status
+14:52:50 GET /api/status -> 200
+14:52:52 -> GET /api/status
+14:52:52 GET /api/status -> 200
+14:52:53 -> GET /api/status
+14:52:53 GET /api/status -> 200
+14:52:55 -> GET /api/status
+14:52:55 GET /api/status -> 200
+14:52:56 -> GET /api/status
+14:52:56 GET /api/status -> 200
+14:52:58 -> GET /api/status
+14:52:58 GET /api/status -> 200
+14:52:59 -> GET /api/status
+14:52:59 GET /api/status -> 200
+14:53:01 -> GET /api/status
+14:53:01 GET /api/status -> 200
+14:53:03 -> GET /api/status
+14:53:03 GET /api/status -> 200
+14:53:04 -> GET /api/status
+14:53:04 GET /api/status -> 200
+14:53:06 -> GET /api/status
+14:53:06 GET /api/status -> 200
+14:53:06 -> GET /audio/8f1d363d670e4a5d83dbc5f897a2d907/wav
+20:19:17 -> GET /
+20:19:17 -> GET /api/beds
+20:19:17 GET /api/beds -> 200
+20:19:17 -> GET /api/enhance/status
+20:19:17 -> GET /api/rvc/status
+20:19:17 GET /api/enhance/status -> 200
+20:19:17 -> GET /api/enhance/status
+20:19:17 -> GET /api/ping
+20:19:17 GET /api/ping -> 200
+20:19:17 GET /api/enhance/status -> 200
+20:19:17 -> GET /api/voices
+20:19:17 GET /api/voices -> 200
+20:19:36 -> POST /api/rvc/test
+20:19:36 POST /api/rvc/test -> 400
+20:19:36       set the RVC folder and model fields in the RVC section first — one of them is empty
+20:19:36 -> GET /api/rvc/status
+20:19:38 GET /api/rvc/status -> 200
+20:19:38 GET /api/rvc/status -> 200
+20:19:44 -> POST /api/rvc/test
+20:19:47 [rvc] worker start: python.exe | rvc-dir=D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer | model=assets/weights/Sonaro-kh.pth | index=(auto)
+20:19:47 -> GET /api/rvc/status
+20:19:49 GET /api/rvc/status -> 200
+20:19:49 -> GET /api/rvc/status
+20:19:52 GET /api/rvc/status -> 200
+20:19:52 -> GET /api/rvc/status
+20:19:54 GET /api/rvc/status -> 200
+20:19:54 -> GET /api/rvc/status
+20:19:57 GET /api/rvc/status -> 200
+20:19:57 -> GET /api/rvc/status
+20:19:59 GET /api/rvc/status -> 200
+20:19:59 -> GET /api/rvc/status
+20:20:02 GET /api/rvc/status -> 200
+20:20:02 -> GET /api/rvc/status
+20:20:04 GET /api/rvc/status -> 200
+20:20:04 -> GET /api/rvc/status
+20:20:07 GET /api/rvc/status -> 200
+20:20:07 -> GET /api/rvc/status
+20:20:09 GET /api/rvc/status -> 200
+20:20:09 -> GET /api/rvc/status
+20:20:11 GET /api/rvc/status -> 200
+20:20:12 -> GET /api/rvc/status
+20:20:14 GET /api/rvc/status -> 200
+20:20:14 -> GET /api/rvc/status
+20:20:15 GET /api/rvc/status -> 200
+20:20:16 -> GET /api/rvc/status
+20:20:16 GET /api/rvc/status -> 200
+23:24:02 -> GET /
+23:24:02 -> GET /api/beds
+23:24:02 GET /api/beds -> 200
+23:24:02 -> GET /api/rvc/status
+23:24:02 -> GET /api/enhance/status
+23:24:02 -> GET /api/ping
+23:24:02 GET /api/enhance/status -> 200
+23:24:02 -> GET /api/voices
+23:24:02 GET /api/ping -> 200
+23:24:02 GET /api/voices -> 200
+23:24:02 -> GET /api/enhance/status
+23:24:02 GET /api/enhance/status -> 200
+23:24:12 GET /api/rvc/status -> 200
+23:24:14 -> POST /api/rvc/test
+23:24:16 [rvc] worker start: python.exe | rvc-dir=D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer | model=assets/weights/Sonaro-kh.pth | index=(auto)
+23:24:17 -> GET /api/rvc/status
+23:24:19 GET /api/rvc/status -> 200
+23:24:19 -> GET /api/rvc/status
+23:24:21 GET /api/rvc/status -> 200
+23:24:22 -> GET /api/rvc/status
+23:24:24 GET /api/rvc/status -> 200
+23:24:24 -> GET /api/rvc/status
+23:24:26 -> GET /api/rvc/status
+23:24:26 GET /api/rvc/status -> 200
+23:24:26 GET /api/rvc/status -> 200
+23:24:36 -> POST /api/rvc/test
+23:24:36 -> GET /api/rvc/status
+23:24:36 GET /api/rvc/status -> 200
+23:24:42 -> GET /hd_samples/01-normal.hd.mp3
+23:24:45 -> GET /hd_samples/01-normal-hiss.hd.mp3
+23:24:47 -> GET /hd_samples/01-normal-hum.hd.mp3
+23:24:50 -> GET /hd_samples/01-normal-room.hd.mp3
+23:24:56 -> POST /api/try
+23:27:50 -> GET /style_demos/novel.mp3
+23:28:39 -> POST /api/rvc/test
+23:28:39 -> GET /api/rvc/status
+23:28:39 GET /api/rvc/status -> 200
+00:36:59 -> GET /
+00:36:59 -> GET /api/beds
+00:36:59 GET /api/beds -> 200
+00:36:59 -> GET /api/rvc/status
+00:36:59 -> GET /api/enhance/status
+00:36:59 GET /api/enhance/status -> 200
+00:36:59 -> GET /api/ping
+00:36:59 GET /api/ping -> 200
+00:36:59 -> GET /api/enhance/status
+00:36:59 -> GET /api/voices
+00:36:59 GET /api/voices -> 200
+00:36:59 GET /api/enhance/status -> 200
+00:37:16 GET /api/rvc/status -> 200
+00:37:52 -> POST /api/rvc/test
+00:37:54 [rvc] worker start: python.exe | rvc-dir=D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer | model=assets/weights/Sonaro-kh.pth | index=(auto)
+00:37:55 -> GET /api/rvc/status
+00:37:57 GET /api/rvc/status -> 200
+00:37:57 -> GET /api/rvc/status
+00:37:59 GET /api/rvc/status -> 200
+00:38:00 -> GET /api/rvc/status
+00:38:02 GET /api/rvc/status -> 200
+00:38:02 -> GET /api/rvc/status
+00:38:04 GET /api/rvc/status -> 200
+00:38:05 -> GET /api/rvc/status
+00:38:07 GET /api/rvc/status -> 200
+00:38:07 -> GET /api/rvc/status
+00:38:09 GET /api/rvc/status -> 200
+00:38:10 -> GET /api/rvc/status
+00:38:12 GET /api/rvc/status -> 200
+00:38:12 -> GET /api/rvc/status
+00:38:14 GET /api/rvc/status -> 200
+00:38:15 -> GET /api/rvc/status
+00:38:17 GET /api/rvc/status -> 200
+00:38:17 -> GET /api/rvc/status
+00:38:18 GET /api/rvc/status -> 200
+00:38:18 -> GET /api/rvc/status
+00:38:18 GET /api/rvc/status -> 200
+02:17:22 -> GET /
+02:17:22 -> GET /api/beds
+02:17:22 GET /api/beds -> 200
+02:17:22 -> GET /api/enhance/status
+02:17:22 GET /api/enhance/status -> 200
+02:17:22 -> GET /api/enhance/status
+02:17:22 -> GET /api/ping
+02:17:22 GET /api/ping -> 200
+02:17:22 -> GET /api/voices
+02:17:22 GET /api/enhance/status -> 200
+02:17:22 GET /api/voices -> 200
+02:17:32 GET /api/rvc/status -> 200

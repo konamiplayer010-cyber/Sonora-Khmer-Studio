@@ -1,0 +1,12 @@
+{
+ "rvcDir": "D:\\Sona\\Sonora-Khmer-Studio\\AI_Agent-khmer",
+ "python": "",
+ "model": "assets/weights/Sonaro-kh.pth",
+ "index": "",
+ "pitch": 0.0,
+ "indexRate": 0.0,
+ "protect": 0.33,
+ "f0Method": "rmvpe",
+ "carrier": "km-KH-SreymomNeural",
+ "scope": "khmer"
+}

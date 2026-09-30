@@ -1,0 +1,5 @@
+edge-tts
+imageio-ffmpeg
+numpy
+gtts
+khmercut

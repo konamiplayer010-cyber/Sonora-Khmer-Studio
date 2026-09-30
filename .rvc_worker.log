@@ -1,0 +1,493 @@
+[rvc-worker] MODEL field -> /tmp/rvc_ai_agent_khmer/assets/weights/Sonaro-kh.pth
+[rvc-worker] index not set â€” auto-selected: assets/indices/Sonaro-kh_added_IVF248.index
+[rvc-worker] RVC model load failed: this python has no torch â€” it is NOT the RVC environment (worker python: /usr/local/bin/python). Set the RVC PYTHON field in Sonora's RVC section to the python.exe that runs your RVC-WebUI (usually <RVC folder>\venv\Scripts\python.exe, or the python your WebUI shortcut calls).
+[rvc-worker] Traceback (most recent call last):
+  File "/home/user/Sonora-Khmer-Studio/sonora/rvc_worker.py", line 193, in load_model
+    import torch
+ModuleNotFoundError: No module named 'torch'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/Sonora-Khmer-Studio/sonora/rvc_worker.py", line 398, in main
+    load_model(args)
+    ~~~~~~~~~~^^^^^^
+  File "/home/user/Sonora-Khmer-Studio/sonora/rvc_worker.py", line 195, in load_model
+    raise RuntimeError(
+    ...<4 lines>...
+        "your WebUI shortcut calls).")
+RuntimeError: this python has no torch â€” it is NOT the RVC environment (worker python: /usr/local/bin/python). Set the RVC PYTHON field in Sonora's RVC section to the python.exe that runs your RVC-WebUI (usually <RVC folder>\venv\Scripts\python.exe, or the python your WebUI shortcut calls).
+
+[rvc-worker] serving on 127.0.0.1:18950 (state=error)
+[rvc-worker] MODEL field -> D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\assets\weights\Sonaro-kh.pth
+[rvc-worker] index not set — auto-selected: assets/indices/Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index
+[rvc-worker] python=D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\python.exe (3.12.10) torch=2.7.1+cu118 cuda=True
+[rvc-worker] precision: fp16 (half) on cuda:0
+[rvc-worker] using RVC API: infer.vc.modules
+D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\utils\weight_norm.py:143: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+[rvc-worker] model loaded via get_vc('Sonaro-kh.pth')
+[rvc-worker] model identity: {"file": "Sonaro-kh.pth", "path": "D:\\Sona\\Sonora-Khmer-Studio\\AI_Agent-khmer\\assets\\weights\\Sonaro-kh.pth", "index": "Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index", "size_mb": 54.9, "sr": 48000, "version": "v2", "info": "266epoch", "f0": 1}
+[rvc-worker] warm-up done in 7.06s — the first real line no longer pays the start-up cost
+[rvc-worker] READY: Sonaro-kh.pth on cuda:0 — fp16, warm-up 7.06s, port 18950, api=infer.vc.modules
+[rvc-worker] serving on 127.0.0.1:18950 (state=ready)
+[rvc-worker] converted 4.1s of audio in 2.0s (2.0x realtime, modern/rmvpe, fp16)
+[rvc-worker] converted 42.1s of audio in 5.2s (8.1x realtime, modern/rmvpe, fp16)
+[rvc-worker] converted 44.4s of audio in 88.2s (0.5x realtime, modern/rmvpe, fp16)
+[rvc-worker] converted 39.9s of audio in 85.2s (0.5x realtime, modern/rmvpe, fp16)
+[rvc-worker] converted 39.9s of audio in 89.2s (0.4x realtime, modern/rmvpe, fp16)
+[rvc-worker] converted 38.8s of audio in 94.1s (0.4x realtime, modern/rmvpe, fp16)
+CUDA Graph capture failed for ('rvc-synth-f0',); using eager
+Traceback (most recent call last):
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\tools\cuda_graph.py", line 167, in run
+    entry = _CapturedCall(function, inputs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\tools\cuda_graph.py", line 123, in __init__
+    output = function(*self.inputs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\vc\pipeline.py", line 225, in <lambda>
+    lambda phone, lengths, coarse, continuous, speaker: net_g.infer(
+                                                        ^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\models.py", line 693, in infer
+    m_p, logs_p, x_mask = self.enc_p(phone, pitch, phone_lengths)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\models.py", line 68, in forward
+    x = self.encoder(x * x_mask, x_mask)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\attentions.py", line 69, in forward
+    y = attn_layers(x, x, attn_mask)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\attentions.py", line 227, in forward
+    x, _ = self.attention(q, k, v, mask=attn_mask)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\attentions.py", line 278, in attention
+    relative_weights = self._absolute_position_to_relative_position(p_attn)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\attentions.py", line 368, in _absolute_position_to_relative_position
+    x_flat = F.pad(
+             ^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\functional.py", line 5209, in pad
+    return torch._C._nn.pad(input, pad, mode, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 178.00 MiB. GPU 0 has a total capacity of 6.00 GiB of which 0 bytes is free. Of the allocated memory 14.30 GiB is allocated by PyTorch, with 12.68 GiB allocated in private pools (e.g., CUDA Graphs), and 1.22 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\tools\cuda_graph.py", line 167, in run
+    entry = _CapturedCall(function, inputs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\tools\cuda_graph.py", line 123, in __init__
+    output = function(*self.inputs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\vc\pipeline.py", line 225, in <lambda>
+    lambda phone, lengths, coarse, continuous, speaker: net_g.infer(
+                                                        ^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\models.py", line 693, in infer
+    m_p, logs_p, x_mask = self.enc_p(phone, pitch, phone_lengths)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\models.py", line 68, in forward
+    x = self.encoder(x * x_mask, x_mask)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\attentions.py", line 69, in forward
+    y = attn_layers(x, x, attn_mask)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\attentions.py", line 227, in forward
+    x, _ = self.attention(q, k, v, mask=attn_mask)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\attentions.py", line 278, in attention
+    relative_weights = self._absolute_position_to_relative_position(p_attn)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\attentions.py", line 368, in _absolute_position_to_relative_position
+    x_flat = F.pad(
+             ^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\functional.py", line 5209, in pad
+    return torch._C._nn.pad(input, pad, mode, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 178.00 MiB. GPU 0 has a total capacity of 6.00 GiB of which 0 bytes is free. Of the allocated memory 14.30 GiB is allocated by PyTorch, with 12.68 GiB allocated in private pools (e.g., CUDA Graphs), and 1.22 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\vc\modules.py", line 201, in vc_single
+    audio_opt = self.pipeline.pipeline(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\vc\pipeline.py", line 363, in pipeline
+    self.vc(
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\vc\pipeline.py", line 222, in vc
+    synthesized = run_cuda_graph(
+                  ^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\tools\cuda_graph.py", line 195, in run_cuda_graph
+    return cache.run((str(namespace),), function, tuple(inputs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\tools\cuda_graph.py", line 179, in run
+    return function(*inputs)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\vc\pipeline.py", line 225, in <lambda>
+    lambda phone, lengths, coarse, continuous, speaker: net_g.infer(
+                                                        ^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\models.py", line 693, in infer
+    m_p, logs_p, x_mask = self.enc_p(phone, pitch, phone_lengths)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\models.py", line 61, in forward
+    x = self.emb_phone(phone) + self.emb_pitch(pitch)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 6.00 GiB of which 0 bytes is free. Of the allocated memory 14.30 GiB is allocated by PyTorch, with 12.68 GiB allocated in private pools (e.g., CUDA Graphs), and 1.22 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61135)
+Traceback (most recent call last):
+  File "D:\Sona\Sonora-Khmer-Studio\Sonora-Khmer-Studio\sonora\rvc_worker.py", line 494, in do_POST
+    out = convert_wav(wav, body.get("pitch", 0),
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\Sonora-Khmer-Studio\sonora\rvc_worker.py", line 438, in convert_wav
+    (sr, audio), used_method, used_api = _vc_single(
+                                         ^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\Sonora-Khmer-Studio\sonora\rvc_worker.py", line 378, in _vc_single
+    raise RuntimeError("RVC conversion failed — " + " || ".join(errs[-3:]))
+RuntimeError: RVC conversion failed — modern/rmvpe: \u3010Single Inference\u3011
+Status\uff1aFailed
+
+Traceback (most recent call last):
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\tools\cuda_graph.py", line 167, in run
+    entry = _CapturedCall(function, input
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "socketserver.py", line 697, in process_request_thread
+  File "socketserver.py", line 362, in finish_request
+  File "socketserver.py", line 766, in __init__
+  File "http\server.py", line 436, in handle
+  File "http\server.py", line 424, in handle_one_request
+  File "D:\Sona\Sonora-Khmer-Studio\Sonora-Khmer-Studio\sonora\rvc_worker.py", line 500, in do_POST
+    log("convert error: " + repr(e))
+  File "D:\Sona\Sonora-Khmer-Studio\Sonora-Khmer-Studio\sonora\rvc_worker.py", line 54, in log
+    print(line, flush=True)
+  File "encodings\cp1252.py", line 19, in encode
+UnicodeEncodeError: 'charmap' codec can't encode character '\u3010' in position 80: character maps to <undefined>
+----------------------------------------
+[rvc-worker] MODEL field -> D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\assets\weights\Sonaro-kh.pth
+[rvc-worker] index not set — auto-selected: assets/indices/Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index
+[rvc-worker] python=D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\python.exe (3.12.10) torch=2.7.1+cu118 cuda=True
+[rvc-worker] precision: fp16 (half) on cuda:0
+[rvc-worker] using RVC API: infer.vc.modules
+D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\utils\weight_norm.py:143: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+[rvc-worker] model loaded via get_vc('Sonaro-kh.pth')
+[rvc-worker] model identity: {"file": "Sonaro-kh.pth", "path": "D:\\Sona\\Sonora-Khmer-Studio\\AI_Agent-khmer\\assets\\weights\\Sonaro-kh.pth", "index": "Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index", "size_mb": 54.9, "sr": 48000, "version": "v2", "info": "266epoch", "f0": 1}
+[rvc-worker] warm-up done in 3.92s — the first real line no longer pays the start-up cost
+[rvc-worker] READY: Sonaro-kh.pth on cuda:0 — fp16, warm-up 3.92s, port 18950, api=infer.vc.modules
+[rvc-worker] serving on 127.0.0.1:18950 (state=ready)
+[rvc-worker] converted 42.3s of audio in 4.9s (8.6x realtime, modern/rmvpe, fp16)
+[rvc-worker] converted 4.1s of audio in 2.0s (2.1x realtime, modern/rmvpe, fp16)
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFE754B6B9D  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFE75FECDF7  Unknown               Unknown  Unknown
+ntdll.dll          00007FFE77C1EE4C  Unknown               Unknown  Unknown
+[rvc-worker] MODEL field -> D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\assets\weights\Sonaro-kh.pth
+[rvc-worker] index not set — auto-selected: assets/indices/Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index
+[rvc-worker] python=D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\python.exe (3.12.10) torch=2.7.1+cu118 cuda=True
+[rvc-worker] precision: fp16 (half) on cuda:0
+[rvc-worker] using RVC API: infer.vc.modules
+D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\utils\weight_norm.py:143: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+[rvc-worker] model loaded via get_vc('Sonaro-kh.pth')
+[rvc-worker] model identity: {"file": "Sonaro-kh.pth", "path": "D:\\Sona\\Sonora-Khmer-Studio\\AI_Agent-khmer\\assets\\weights\\Sonaro-kh.pth", "index": "Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index", "size_mb": 54.9, "sr": 48000, "version": "v2", "info": "266epoch", "f0": 1}
+[rvc-worker] warm-up done in 5.17s — the first real line no longer pays the start-up cost
+[rvc-worker] READY: Sonaro-kh.pth on cuda:0 — fp16, warm-up 5.17s, port 18950, api=infer.vc.modules
+[rvc-worker] serving on 127.0.0.1:18950 (state=ready)
+[rvc-worker] converted 37.6s of audio in 4.8s (7.8x realtime, modern/rmvpe, fp16)
+[rvc-worker] converted 43.0s of audio in 36.8s (1.2x realtime, modern/rmvpe, fp16)
+[rvc-worker] converted 42.3s of audio in 101.0s (0.4x realtime, modern/rmvpe, fp16)
+[rvc-worker] converted 41.0s of audio in 77.1s (0.5x realtime, modern/rmvpe, fp16)
+[rvc-worker] converted 35.8s of audio in 78.3s (0.5x realtime, modern/rmvpe, fp16)
+CUDA Graph capture failed for ('rvc-synth-f0',); using eager
+Traceback (most recent call last):
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\tools\cuda_graph.py", line 167, in run
+    entry = _CapturedCall(function, inputs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\tools\cuda_graph.py", line 128, in __init__
+    self.output = function(*self.inputs)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\vc\pipeline.py", line 225, in <lambda>
+    lambda phone, lengths, coarse, continuous, speaker: net_g.infer(
+                                                        ^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\models.py", line 696, in infer
+    o = self.dec(z * x_mask, nsff0, g=g, n_res=return_length2)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\models.py", line 527, in forward
+    xs += resblock(x)
+          ^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\modules.py", line 305, in forward
+    xt = F.leaky_relu(x, self.lrelu_slope)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\functional.py", line 1902, in leaky_relu
+    result = torch._C._nn.leaky_relu(input, negative_slope)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 142.00 MiB. GPU 0 has a total capacity of 6.00 GiB of which 0 bytes is free. Of the allocated memory 13.97 GiB is allocated by PyTorch, with 12.43 GiB allocated in private pools (e.g., CUDA Graphs), and 1.43 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\tools\cuda_graph.py", line 167, in run
+    entry = _CapturedCall(function, inputs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\tools\cuda_graph.py", line 128, in __init__
+    self.output = function(*self.inputs)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\vc\pipeline.py", line 225, in <lambda>
+    lambda phone, lengths, coarse, continuous, speaker: net_g.infer(
+                                                        ^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\models.py", line 696, in infer
+    o = self.dec(z * x_mask, nsff0, g=g, n_res=return_length2)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\models.py", line 527, in forward
+    xs += resblock(x)
+          ^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\modules.py", line 305, in forward
+    xt = F.leaky_relu(x, self.lrelu_slope)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\functional.py", line 1902, in leaky_relu
+    result = torch._C._nn.leaky_relu(input, negative_slope)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 142.00 MiB. GPU 0 has a total capacity of 6.00 GiB of which 0 bytes is free. Of the allocated memory 13.97 GiB is allocated by PyTorch, with 12.43 GiB allocated in private pools (e.g., CUDA Graphs), and 1.43 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\vc\modules.py", line 201, in vc_single
+    audio_opt = self.pipeline.pipeline(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\vc\pipeline.py", line 363, in pipeline
+    self.vc(
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\vc\pipeline.py", line 222, in vc
+    synthesized = run_cuda_graph(
+                  ^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\tools\cuda_graph.py", line 195, in run_cuda_graph
+    return cache.run((str(namespace),), function, tuple(inputs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\tools\cuda_graph.py", line 179, in run
+    return function(*inputs)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\vc\pipeline.py", line 225, in <lambda>
+    lambda phone, lengths, coarse, continuous, speaker: net_g.infer(
+                                                        ^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\models.py", line 693, in infer
+    m_p, logs_p, x_mask = self.enc_p(phone, pitch, phone_lengths)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\models.py", line 68, in forward
+    x = self.encoder(x * x_mask, x_mask)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\attentions.py", line 69, in forward
+    y = attn_layers(x, x, attn_mask)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\attentions.py", line 227, in forward
+    x, _ = self.attention(q, k, v, mask=attn_mask)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\attentions.py", line 255, in attention
+    scores_local = self._relative_position_to_absolute_position(rel_logits)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\infer\module\attentions.py", line 334, in _relative_position_to_absolute_position
+    x = F.pad(
+        ^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\functional.py", line 5209, in pad
+    return torch._C._nn.pad(input, pad, mode, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 178.00 MiB. GPU 0 has a total capacity of 6.00 GiB of which 0 bytes is free. Of the allocated memory 14.30 GiB is allocated by PyTorch, with 12.43 GiB allocated in private pools (e.g., CUDA Graphs), and 1.14 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 53235)
+Traceback (most recent call last):
+  File "D:\Sona\Sonora-Khmer-Studio\Sonora-Khmer-Studio\sonora\rvc_worker.py", line 494, in do_POST
+    out = convert_wav(wav, body.get("pitch", 0),
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\Sonora-Khmer-Studio\sonora\rvc_worker.py", line 438, in convert_wav
+    (sr, audio), used_method, used_api = _vc_single(
+                                         ^^^^^^^^^^^
+  File "D:\Sona\Sonora-Khmer-Studio\Sonora-Khmer-Studio\sonora\rvc_worker.py", line 378, in _vc_single
+    raise RuntimeError("RVC conversion failed — " + " || ".join(errs[-3:]))
+RuntimeError: RVC conversion failed — modern/rmvpe: \u3010Single Inference\u3011
+Status\uff1aFailed
+
+Traceback (most recent call last):
+  File "D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\tools\cuda_graph.py", line 167, in run
+    entry = _CapturedCall(function, input
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "socketserver.py", line 697, in process_request_thread
+  File "socketserver.py", line 362, in finish_request
+  File "socketserver.py", line 766, in __init__
+  File "http\server.py", line 436, in handle
+  File "http\server.py", line 424, in handle_one_request
+  File "D:\Sona\Sonora-Khmer-Studio\Sonora-Khmer-Studio\sonora\rvc_worker.py", line 500, in do_POST
+    log("convert error: " + repr(e))
+  File "D:\Sona\Sonora-Khmer-Studio\Sonora-Khmer-Studio\sonora\rvc_worker.py", line 54, in log
+    print(line, flush=True)
+  File "encodings\cp1252.py", line 19, in encode
+UnicodeEncodeError: 'charmap' codec can't encode character '\u3010' in position 80: character maps to <undefined>
+----------------------------------------
+[rvc-worker] MODEL field -> D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\assets\weights\Sonaro-kh.pth
+[rvc-worker] index not set — auto-selected: assets/indices/Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index
+[rvc-worker] python=D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\python.exe (3.12.10) torch=2.7.1+cu118 cuda=True
+[rvc-worker] precision: fp16 (half) on cuda:0
+[rvc-worker] using RVC API: infer.vc.modules
+D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\utils\weight_norm.py:143: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+[rvc-worker] model loaded via get_vc('Sonaro-kh.pth')
+[rvc-worker] model identity: {"file": "Sonaro-kh.pth", "path": "D:\\Sona\\Sonora-Khmer-Studio\\AI_Agent-khmer\\assets\\weights\\Sonaro-kh.pth", "index": "Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index", "size_mb": 54.9, "sr": 48000, "version": "v2", "info": "266epoch", "f0": 1}
+[rvc-worker] warm-up done in 4.64s — the first real line no longer pays the start-up cost
+[rvc-worker] READY: Sonaro-kh.pth on cuda:0 — fp16, warm-up 4.64s, port 18950, api=infer.vc.modules
+[rvc-worker] serving on 127.0.0.1:18950 (state=ready)
+[rvc-worker] converted 42.1s of audio in 5.0s (8.5x realtime, modern/rmvpe, fp16)
+[rvc-worker] converted 39.5s of audio in 38.2s (1.0x realtime, modern/rmvpe, fp16)
+[rvc-worker] converted 42.2s of audio in 76.2s (0.6x realtime, modern/rmvpe, fp16)
+[rvc-worker] converted 40.0s of audio in 74.7s (0.5x realtime, modern/rmvpe, fp16)
+[rvc-worker] converted 46.5s of audio in 121.3s (0.4x realtime, modern/rmvpe, fp16)
+[rvc-worker] converted 9.3s of audio in 32.9s (0.3x realtime, modern/rmvpe, fp16)
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFE754B6B9D  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFE75FECDF7  Unknown               Unknown  Unknown
+ntdll.dll          00007FFE77C1EE4C  Unknown               Unknown  Unknown
+[rvc-worker] MODEL field -> D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\assets\weights\Sonaro-kh.pth
+[rvc-worker] index not set — auto-selected: assets/indices/Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index
+[rvc-worker] python=D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\python.exe (3.12.10) torch=2.7.1+cu118 cuda=True
+[rvc-worker] precision: fp16 (half) on cuda:0
+[rvc-worker] using RVC API: infer.vc.modules
+D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\utils\weight_norm.py:143: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+[rvc-worker] model loaded via get_vc('Sonaro-kh.pth')
+[rvc-worker] model identity: {"file": "Sonaro-kh.pth", "path": "D:\\Sona\\Sonora-Khmer-Studio\\AI_Agent-khmer\\assets\\weights\\Sonaro-kh.pth", "index": "Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index", "size_mb": 54.9, "sr": 48000, "version": "v2", "info": "266epoch", "f0": 1}
+[rvc-worker] warm-up done in 6.12s — the first real line no longer pays the start-up cost
+[rvc-worker] READY: Sonaro-kh.pth on cuda:0 — fp16, warm-up 6.12s, port 18950, api=infer.vc.modules
+[rvc-worker] serving on 127.0.0.1:18950 (state=ready)
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FF8EF756B9D  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF8F03BCDF7  Unknown               Unknown  Unknown
+ntdll.dll          00007FF8F1DFEE4C  Unknown               Unknown  Unknown
+[rvc-worker] MODEL field -> D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\assets\weights\Sonaro-kh.pth
+[rvc-worker] index not set — auto-selected: assets/indices/Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index
+[rvc-worker] python=D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\python.exe (3.12.10) torch=2.7.1+cu118 cuda=True
+[rvc-worker] precision: fp16 (half) on cuda:0
+[rvc-worker] using RVC API: infer.vc.modules
+D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\utils\weight_norm.py:143: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+[rvc-worker] model loaded via get_vc('Sonaro-kh.pth')
+[rvc-worker] model identity: {"file": "Sonaro-kh.pth", "path": "D:\\Sona\\Sonora-Khmer-Studio\\AI_Agent-khmer\\assets\\weights\\Sonaro-kh.pth", "index": "Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index", "size_mb": 54.9, "sr": 48000, "version": "v2", "info": "266epoch", "f0": 1}
+[rvc-worker] warm-up done in 3.89s — the first real line no longer pays the start-up cost
+[rvc-worker] READY: Sonaro-kh.pth on cuda:0 — fp16, warm-up 3.89s, port 18950, api=infer.vc.modules
+[rvc-worker] serving on 127.0.0.1:18950 (state=ready)
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FF8EF756B9D  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF8F03BCDF7  Unknown               Unknown  Unknown
+ntdll.dll          00007FF8F1DFEE4C  Unknown               Unknown  Unknown
+[rvc-worker] MODEL field -> D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\assets\weights\Sonaro-kh.pth
+[rvc-worker] index not set — auto-selected: assets/indices/Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index
+[rvc-worker] python=D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\python.exe (3.12.10) torch=2.7.1+cu118 cuda=True
+[rvc-worker] precision: fp16 (half) on cuda:0
+[rvc-worker] using RVC API: infer.vc.modules
+D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\torch\nn\utils\weight_norm.py:143: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+[rvc-worker] model loaded via get_vc('Sonaro-kh.pth')
+[rvc-worker] model identity: {"file": "Sonaro-kh.pth", "path": "D:\\Sona\\Sonora-Khmer-Studio\\AI_Agent-khmer\\assets\\weights\\Sonaro-kh.pth", "index": "Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index", "size_mb": 54.9, "sr": 48000, "version": "v2", "info": "266epoch", "f0": 1}
+[rvc-worker] warm-up done in 4.87s — the first real line no longer pays the start-up cost
+[rvc-worker] READY: Sonaro-kh.pth on cuda:0 — fp16, warm-up 4.87s, port 18950, api=infer.vc.modules
+[rvc-worker] serving on 127.0.0.1:18950 (state=ready)
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FF8EF756B9D  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF8F03BCDF7  Unknown               Unknown  Unknown
+ntdll.dll          00007FF8F1DFEE4C  Unknown               Unknown  Unknown

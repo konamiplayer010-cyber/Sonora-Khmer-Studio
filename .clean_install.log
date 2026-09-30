@@ -1,0 +1,35 @@
+Clean & Clear engine install
+python: D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\python.exe
+package: clearvoice
+started: 2026-09-30 13:38:17
+
+=== checking pip
+$ D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\python.exe -m pip --version
+pip 26.1.2 from D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages\pip (python 3.12)
+
+
+=== checking internet access to pypi.org
+$ D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\python.exe -c import urllib.request as u;u.urlopen('https://pypi.org/simple/', timeout=15).read(1);print('ok')
+ok
+
+
+=== installing clearvoice
+$ D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\python.exe -m pip install --no-deps clearvoice
+Requirement already satisfied: clearvoice in D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\Lib\site-packages (0.1.2)
+
+[notice] A new release of pip is available: 26.1.2 -> 26.2.1
+[notice] To update, run: D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\python.exe -m pip install --upgrade pip
+
+
+=== resolving dependencies (the RVC python lists them)
+$ D:\Sona\Sonora-Khmer-Studio\AI_Agent-khmer\runtime\python.exe -c import sys; sys.path.insert(0, r'D:\Sona\Sonora-Khmer-Studio\Sonora-Khmer-Studio\sonora');import enhance as E;log = [];ok, steps = E.resolve_dependencies(log=log);[print('   ' + s, flush=True) for s in steps];sys.exit(0 if ok else 1)
+   installed bs4 (exit 0)
+   installed bs4 (exit 0)
+   installed bs4 (exit 0)
+   installed bs4 (exit 0)
+   installed bs4 (exit 0)
+   installed bs4 (exit 0)
+   installed bs4 (exit 0)
+   installed bs4 (exit 0)
+   still incomplete after 8 rounds
+
