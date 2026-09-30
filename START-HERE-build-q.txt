@@ -1,0 +1,67 @@
+START HERE — build 2026-09-30q (the HD switch is a real, testable tool now)
+
+1. HOW TO KNOW WHICH BUILD YOUR STUDIO IS RUNNING
+   Look at the top-right of the studio page, next to "Engine online".
+   It prints   build 2026-09-30q   when this package is installed.
+   If it says 2026-09-30p or earlier, the old files are still on your PC —
+   press Ctrl+F5 after installing, the page is cached by the browser.
+
+2. TO INSTALL THIS BUILD
+   a) unzip this archive;
+   b) close the studio window and stop START.bat if it is running;
+   c) copy the unpacked folder OVER your old Sonora-Khmer-Studio folder
+      (extract into the same parent folder, "replace files" when asked) —
+      your settings, checkpoints, models and any finished audio are NOT in
+      this archive and are never deleted by extracting over it;
+   d) start START.bat, pick menu 1, load the page;
+   e) press Ctrl+F5 (hard refresh);
+   f) check the header says build 2026-09-30q.
+
+3. WHAT CHANGED — THE HD SWITCH, IN THE STUDIO ITSELF
+
+   a) HD / CLEAN KHMER VOICE is now always on the page, next to RVC VOICE
+      CLONE. Until you tick the clone it sits at 75% opacity with its box
+      disabled: you can see it, you cannot use it. Tick RVC VOICE CLONE and
+      it goes to full strength, switched on by default. Un-tick the clone and
+      it goes back to 75% — it never disappears.
+
+   b) The four takes are playable right there, the same clips you heard in
+      HD-Cleanup-Demo.html:
+         * A healthy take — almost nothing to fix
+         * A hiss floor — noise reduction
+         * A 45 Hz hum — rumble filter
+         * A roomy take — de-reverb
+      Each line has  ▶ Original  and  ▶ HD Clean. When the clone is off the
+      whole panel is dimmed the same way and the buttons do nothing at all —
+      pressing one fetches no audio.
+
+   c) PERFORMANCE takes less height: the heading line stays, and DRAMATIC
+      PAUSES and NARRATION SPEED now sit side by side underneath it, same
+      controls, same order, same numbers.
+
+   d) Less reading:  ⟳ Test clone ▶  moved up to sit right after
+      🔍 Find RVC folder (one row, scan first, test second). The long
+      paragraph about how the clone and the base voice work is folded into a
+      one-click summary line — every word is still there if you open it.
+
+   Where you can see all of it: HD-UI-Update.html — real screenshots of this
+   build at your screen size, next to the old version for comparison.
+
+4. STILL TRUE FROM THE PREVIOUS BUILD
+   * no whisper and no breath in the pauses (build 2026-09-30o);
+   * HD cleanup never boosts or compresses a damaged (clipped / hard-limited)
+     source, drops the true-peak ceiling to -1.5 dBTP there, and keeps the
+     penalty in the score (build 2026-09-30p).
+
+5. CHECK YOUR OWN FILE — FIND IT, DON'T GUESS
+   python3 pipeline/check_whisper.py "C:\path\to\your-episode.wav"
+     * whisper-like passages with time stamps, or says there are none;
+     * a pause audit: "pauses are silent", or which pauses carry noise.
+   For HD, the result line in the studio states the score, the stages that
+   fired and the true peak, so you can see whether the file was treated as
+   damaged.
+
+6. SUGGESTED FIRST CHECK
+   Tick RVC VOICE CLONE, then play all four takes in the HD panel and compare
+   Original against HD Clean. Then untick the clone and confirm the panel
+   dims and stops responding — that is the rule you asked for.

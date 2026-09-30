@@ -1,0 +1,45 @@
+ALL 13 NARRATION STYLES — one file, in order
+=============================================
+
+The 13 clips from the Narration Style panel, back to back, in
+panel order (0.7 s between clips). Each clip is the style
+PERFORMED by the studio engine — its own pace, its own
+softness, its own pauses — and it names itself, so this file is
+also the spoken guide to the panel.
+
+PURE VOICE, OWN STYLE: every style performs differently
+(meditation 0.84x at -1.2 dB with 1.4 s gaps, news 1.07x and
+brisk, trailer 0.90x and +0.7 dB, cinematic 0.99x at 0.0 dB —
+the storyteller read, unhurried, phrase by phrase). The SPEAKER
+never changes: pitch stays at 0.0 st in all 13 styles and all 52
+feelings.
+
+BUILD 2026-09-30n:
+  cinematic — reset to the ORIGINAL voice: pace 0.99x at 0.0 dB,
+              no tone shaping. The style is the storyteller READ
+              (unhurried, phrase by phrase, gentle landings), and
+              one line inside its clip is a brief whisper moment.
+  no style whispers a whole narration in this build — a whisper is
+              only ever a brief moment inside a style,
+
+Master: 48 kHz / 192 kbps mp3, loudness -16 LUFS, voice en-US-JennyNeural.
+
+0:00.00  Natural read                         ( 14.8s, 0.99x, -0.1 dB, pause 0.21s)
+0:15.55  Documentary                          ( 14.8s, 0.95x, -0.0 dB, pause 1.35s)
+0:31.01  Movie trailer                        ( 20.7s, 0.91x, +0.7 dB, pause 4.94s)
+0:52.39  Audiobook                            ( 15.4s, 0.98x, +0.3 dB, pause 0.83s)
+1:08.48  News anchor                          ( 14.6s, 1.06x, +0.3 dB, pause 0.34s)
+1:23.75  Explainer                            ( 15.5s, 1.00x, +0.2 dB, pause 0.53s)
+1:39.99  Thriller                             ( 19.2s, 0.92x, -0.8 dB, pause 3.56s)
+1:59.88  Meditation                           ( 17.5s, 0.81x, -1.2 dB, pause 10.83s)
+2:18.11  Narrative Storytelling               ( 17.4s, 0.95x, +0.2 dB, pause 1.50s)
+2:36.24  Novel Narration                      ( 16.6s, 0.96x, +0.0 dB, pause 0.80s)
+2:53.54  Inner Monologue                      ( 17.9s, 0.89x, -0.6 dB, pause 2.22s)
+3:12.11  Sad Romantic                         ( 20.1s, 0.89x, -1.2 dB, pause 2.77s)
+3:32.89  Emotional Cinematic Storytelling     ( 16.5s, 0.96x, -0.5 dB, pause 2.78s)
+
+Total 230.1 s
+
+Rebuild:  cd sonora && python style_demos.py && python make_en_pack.py
+The pack is assembled from the panel clips — never re-rendered —
+so it always matches the build that ships with it.
