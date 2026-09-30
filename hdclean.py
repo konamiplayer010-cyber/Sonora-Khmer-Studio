@@ -104,18 +104,6 @@ PRESENCE_LINE = 0.008
 #: touched: what this measures is drift BETWEEN phrases, which is the defect,
 #: not the dynamics WITHIN a phrase, which is the performance (§4, §27).
 DYN_LINE = 10.0
-#: §5 clipping / §18 hard-limit damage. Measured as the share of frames that
-#: sit at full scale. Above this the plan stops adding anything that raises a
-#: peak and delivers with extra headroom instead (see plan()).
-#: Calibrated: a clean voice and the studio's 13 demos read 0.000 %, a
-#: low-passed fixture reads 0.083 % (its own filter maths overshoots a
-#: handful of samples — not a clipped recording), a hot clone driven 3.2x
-#: into the ceiling reads 5.36 % of samples pinned at the ceiling.
-#: Calibrated across everything shipped: the studio's 13 demo voices sit at
-#: 16.4-17.6 dB and the 15 clean Khmer samples at 15.0-16.1, while a take
-#: driven 2x into the ceiling reads 12.5 and 3.2x reads 9.5.
-CREST_LINE_DB = 13.5
-CLIP_LINE_PCT = 0.02
 
 BANDS = ((40, "poor", "strong corrective cleanup"),
          (60, "needs cleanup", "noticeable cleanup"),
@@ -290,40 +278,7 @@ def analyze(x, sr, state=None):
     st["frames"] = st.get("frames", 0) + int(frame_rms.size)
     st["sum_db"] = st.get("sum_db", 0.0) + float(np.sum(frame_db))
     st["peak"] = max(st.get("peak", 0.0), float(np.max(np.abs(x)) if x.size else 0.0))
-    # §5 clipping — measured as FLAT TOPS, not as "samples at digital full
-    # scale". The old test counted |x| > 0.999, which misses every clipped
-    # file that was normalised afterwards: the flat tops are still there,
-    # they simply sit at 0.98 instead of 1.0. A flat top is a run of at
-    # least three samples pinned within 0.5 % of the loudest peak, and the
-    # peak itself has to be near the ceiling for the reading to mean
-    # anything (a quiet file has no ceiling to hit).
-    # §5 clipping — measured as PINNED samples, not as "samples at digital
-    # full scale" and not as "samples near the peak". Both of those were
-    # tried and both are wrong here: the first misses every clipped file
-    # that was normalised afterwards (the flat tops are still there, they
-    # simply sit at 0.98), and the second fires on any smooth low-frequency
-    # peak — a 230 Hz vowel puts several samples within 0.5 % of its own
-    # maximum and a low-passed fixture read 0.02 % "clipped" while being
-    # nothing of the kind. Real clipping pins consecutive samples at a
-    # value they do not move from: a run of at least three samples that
-    # share the loudest value within 1e-4 of each other.
-    _pk = float(np.max(np.abs(x))) if x.size else 0.0
-    if _pk >= 0.90:
-        _flat = np.abs(x) >= _pk * 0.99
-        _flat_n, _fk = 0, 0
-        while _fk < _flat.size:
-            if _flat[_fk]:
-                _fk2 = _fk
-                while _fk2 < _flat.size and _flat[_fk2]:
-                    _fk2 += 1
-                if (_fk2 - _fk) >= 3 and float(np.ptp(x[_fk:_fk2])) <= 1e-4:
-                    _flat_n += (_fk2 - _fk)
-                _fk = _fk2
-            else:
-                _fk += 1
-        st["clip"] = st.get("clip", 0.0) + (_flat_n / float(x.size)) * frame_rms.size
-    else:
-        st["clip"] = st.get("clip", 0.0)
+    st["clip"] = st.get("clip", 0.0) + float(np.mean(np.abs(x) > 0.999)) * frame_rms.size
     st["silence"] = st.get("silence", 0.0) + float(np.mean(frame_db < (noise_db + 3.0)))
     _lf_bins = (freqs >= 20.0) & (freqs < 80.0)
     _body_bins = (freqs >= 300.0) & (freqs < 3000.0)
@@ -384,11 +339,6 @@ def _finish(st):
         "speech_db": float(st["speech_db"]),
         "snr_db": float(min(120.0, st["speech_db"] - max(st.get("noise_meter", -120.0), -120.0))),
         "clip_pct": 100.0 * float(st["clip"]) / n,
-        # §5 distortion, as far as a single file can show it: with clipping
-        # charged above, this is how hard-limited the signal is — the gap
-        # between the loudest peak and the speech body. A healthy read sits
-        # near 14-18 dB; a squashed or re-limited one collapses toward 6.
-        "crest_db": float(_db(st["peak"]) - st["speech_db"]),
         "silence_pct": 100.0 * float(st["silence"]) / ch,
         # the five calibrated defect metrics (each ~0 on a clean file)
         # §7 — a steady low-frequency bed, measured while nobody is speaking,
@@ -452,12 +402,6 @@ def score(info):
     if dyn is not None and dyn > DYN_LINE:
         s -= min(8.0, (dyn - DYN_LINE) * 1.5)
     if info.get("clip_pct", 0) > 0.01: s -= min(12.0, info["clip_pct"] * 200)
-    # §5 distortion / §18 hard-limit damage: a file with no headroom between
-    # its peak and its body is not a 100/100 recording, even when no sample
-    # is pinned — a squashed take reads 9-13 dB against a healthy 15-18.
-    _cr = info.get("crest_db")
-    if _cr is not None and _cr < CREST_LINE_DB:
-        s -= min(12.0, (CREST_LINE_DB - _cr) * 3.0)
     return int(max(0, min(100, round(s))))
 
 
@@ -483,31 +427,6 @@ def plan(info, strength_cap=1.0):
     st = max(0.0, min(1.0, st))
     dyn = info.get("dyn_db")
     p = {"score": sc, "strength": round(st, 3), "stages": [], "reasons": []}
-
-    # clipping / hard-limit damage (§5, §18, §26) -------------------------
-    # Clipping was measured and charged in the score, but the plan still
-    # added a presence BOOST and compression on top of it — both of which
-    # push flat-topped peaks further into the ceiling. Now a clipped input
-    # gets the opposite treatment: no boost, no compressor, more headroom.
-    clip_pct = float(info.get("clip_pct") or 0.0)
-    crest = info.get("crest_db")
-    p["clipped_pct"] = round(clip_pct, 4)
-    p["crest_db"] = round(crest, 2) if crest is not None else None
-    pinned = clip_pct > CLIP_LINE_PCT
-    dense = crest is not None and crest < CREST_LINE_DB
-    clipped = bool(pinned or dense)
-    if clipped:
-        if pinned:
-            _why = "%0.2f%% of samples pinned at the ceiling" % clip_pct
-            if crest is not None:
-                _why += ", crest %.1f dB" % crest
-        else:
-            _why = ("no headroom left between peak and body: crest %.1f dB, "
-                    "healthy voices 15-18" % crest)
-        p["stages"].append("clipping / hard limiting found (%s) — no boost, "
-                           "extra headroom" % _why)
-        p["reasons"].append("the file is already damaged at the peak: boosting "
-                            "or compressing it would only deepen it")
 
     # noise reduction (§6)
     snr = info.get("snr_db", 60.0)
@@ -558,8 +477,6 @@ def plan(info, strength_cap=1.0):
     # file that needs clarity gets a real (if small) lift, not a 0.3 dB token,
     # and a file that needs less than half a dB gets no EQ stage at all (§22)
     g = max(0.25, raw * (0.6 + 0.4 * st)) if raw > 0 else 0.0
-    if clipped:
-        g = 0.0        # §18: never boost a clipped file
     if g > 0:
         p["presence"] = {"hz": 3300, "gain": round(g, 2)}
         p["stages"].append("presence +%.1f dB @3.3 kHz" % g)
@@ -580,10 +497,6 @@ def plan(info, strength_cap=1.0):
     else:
         p["deess"] = None
 
-    if clipped:
-        # §12/§18: a compressor on a clipped file squeezes the flat tops even
-        # harder — the plan leaves the dynamics alone and delivers headroom.
-        p["comp"] = None
     # gentle compression (§12) — only when the level really wanders, and placed
     # against the voice's OWN level. The threshold used to be a fixed -18 dB,
     # which made the stage's effect depend on how hot the file happened to be:
@@ -615,11 +528,7 @@ def plan(info, strength_cap=1.0):
     name, what = band_of(sc)
     p["band"] = name
     p["what"] = what
-    p["loudness"] = {"lufs": TARGET_LUFS,
-                     "tp": (TRUE_PEAK_DBTP - 0.5) if clipped else TRUE_PEAK_DBTP}
-    if clipped:
-        p["reasons"].append("true-peak ceiling lowered to %.1f dBTP so the "
-                            "damaged peaks have room" % p["loudness"]["tp"])
+    p["loudness"] = {"lufs": TARGET_LUFS, "tp": TRUE_PEAK_DBTP}
     return p
 
 
