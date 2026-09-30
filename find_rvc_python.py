@@ -31,6 +31,7 @@ CLI
     python find_rvc_python.py                 list candidates + best pick
     python find_rvc_python.py --root "E:\\..."  scan a specific RVC folder
     python find_rvc_python.py --json          machine-readable output
+    python find_rvc_python.py --quiet         only the best path (for .bat files)
 """
 import argparse
 import json
@@ -246,6 +247,8 @@ def main():
     ap.add_argument("--root", default="", help="RVC installation folder")
     ap.add_argument("--python", default="", help="candidate to check first")
     ap.add_argument("--json", action="store_true")
+    ap.add_argument("--quiet", action="store_true",
+                    help="print ONLY the best python path (for .bat files)")
     a = ap.parse_args()
 
     root = a.root
@@ -262,6 +265,11 @@ def main():
                 pass
 
     best, results = find(root, a.python)
+    if a.quiet:
+        if best:
+            print(best)
+            return 0
+        return 1
     if a.json:
         print(json.dumps({"best": best,
                           "candidates": [{"path": p, "torch": ok}

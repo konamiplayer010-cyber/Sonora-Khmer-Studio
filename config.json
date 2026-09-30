@@ -1,0 +1,38 @@
+{
+  "project": "History_Narration_SONARO_KH",
+  "input_file": "input/history_kh.txt",
+  "rvc_root": "E:\\Audio Books\\History\\TH\\RVC20260718Nvidia\\RVC20260718Nvidia",
+  "rvc_python": "",
+  "model_file": "assets/weights/Sonaro-kh.pth",
+  "index_file": "E:\\Audio Books\\History\\TH\\RVC20260718Nvidia\\RVC20260718Nvidia\\assets\\indices\\Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index",
+  "test_voice": "E:\\Audio Books\\History\\TH\\Sonaro-kh_test.wav",
+  "tts_voice": "km-KH-SreymomNeural",
+  "tts_rate": "+0%",
+  "narration_style": "audiobook",
+  "rvc": {
+    "f0_method": "rmvpe",
+    "pitch": 0,
+    "index_rate": 0.75,
+    "protect": 0.33,
+    "rms_mix_rate": 0.13,
+    "resample_sr": 0
+  },
+  "clean_master": {
+    "enabled": true,
+    "tier": "auto",
+    "python": "",
+    "target_lufs": -16,
+    "true_peak_db": -1.0,
+    "sample_rate": 48000,
+    "denoise": true,
+    "eq": true,
+    "de_ess_db": 2.5,
+    "super_res": true,
+    "export_mp3": false,
+    "mp3_bitrate": "192k"
+  },
+  "final_sample_rate": 44100,
+  "retries": 2,
+  "final_name": "History_Narration_SONARO_KH.wav",
+  "tts_engine": "auto"
+}

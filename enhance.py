@@ -574,6 +574,8 @@ def main():
     ap.add_argument("--in", dest="inp", default="")
     ap.add_argument("--out", dest="out", default="")
     ap.add_argument("--json", dest="json_out", default="")
+    ap.add_argument("--base", default="",
+                    help="folder holding checkpoints/ (shared weights)")
     ap.add_argument("--tier", default="auto", choices=["auto", "ffmpeg", "model"])
     ap.add_argument("--ffmpeg", default="")
     ap.add_argument("--lufs", type=float, default=-16.0)
@@ -600,7 +602,8 @@ def main():
     rep = enhance_file(a.inp, a.out, tier=a.tier, ffmpeg=a.ffmpeg,
                        lufs=a.lufs, peak=a.peak, sr=a.sr, lra=a.lra,
                        denoise=not a.no_denoise, eq=not a.no_eq,
-                       deess=a.deess, super_res=not a.no_super_res)
+                       deess=a.deess, super_res=not a.no_super_res,
+                       base=(a.base or None))
     if a.json_out:
         with open(a.json_out, "w", encoding="utf-8") as f:
             json.dump(rep, f, indent=1, ensure_ascii=False)
