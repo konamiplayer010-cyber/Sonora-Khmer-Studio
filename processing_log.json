@@ -1,0 +1,25 @@
+{
+ "meta": {
+  "input": "D:\\Sona\\Sonora-Khmer-Studio\\Sonora-Khmer-Studio\\pipeline\\clone_test\\input\\test_paragraph_kh.txt",
+  "project": "CLONE_TEST",
+  "updated_at": "2026-09-29 01:25:40",
+  "rvc_api": "infer.vc.modules"
+ },
+ "chunks": {
+  "chapter_01/chunk_0001": {
+   "tts": "success",
+   "attempts": 1,
+   "engine": "edge",
+   "voice": "",
+   "style": "Audiobook | 2/2 sentences | intensity 32-35",
+   "rvc": "success"
+  }
+ },
+ "master": {
+  "chapter_01": {
+   "status": "failed",
+   "error": "RuntimeError: neural engine requested but could not run — clearvoice failed: ModuleNotFoundError: No module named 'soundfile'; deepfilternet is not installed in this python   (fix: install it, or set clean_master.tier to \"auto\" / \"ffmpeg\" to use the built-in chain)",
+   "time": "2026-09-29 01:25:40"
+  }
+ }
+}

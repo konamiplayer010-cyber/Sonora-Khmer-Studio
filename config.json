@@ -1,14 +1,15 @@
 {
-  "project": "History_Narration_SONARO_KH",
-  "input_file": "input/history_kh.txt",
+  "project": "CLONE_TEST",
+  "input_file": "input/test_paragraph_kh.txt",
   "rvc_root": "E:\\Audio Books\\History\\TH\\RVC20260718Nvidia\\RVC20260718Nvidia",
-  "rvc_python": "",
+  "rvc_python": "E:\\Audio Books\\History\\TH\\RVC20260718Nvidia\\RVC20260718Nvidia\\runtime\\python.exe",
   "model_file": "assets/weights/Sonaro-kh.pth",
   "index_file": "E:\\Audio Books\\History\\TH\\RVC20260718Nvidia\\RVC20260718Nvidia\\assets\\indices\\Sonaro-kh_added_IVF248_Flat_nprobe_1_Sonaro-kh_v2.index",
   "test_voice": "E:\\Audio Books\\History\\TH\\Sonaro-kh_test.wav",
+  "tts_engine": "auto",
+  "narration_style": "audiobook",
   "tts_voice": "km-KH-SreymomNeural",
   "tts_rate": "+0%",
-  "narration_style": "audiobook",
   "rvc": {
     "f0_method": "rmvpe",
     "pitch": 0,
@@ -17,6 +18,9 @@
     "rms_mix_rate": 0.13,
     "resample_sr": 0
   },
+  "final_sample_rate": 44100,
+  "retries": 2,
+  "final_name": "CLONE_TEST.wav",
   "clean_master": {
     "enabled": true,
     "tier": "auto",
@@ -30,9 +34,5 @@
     "super_res": true,
     "export_mp3": false,
     "mp3_bitrate": "192k"
-  },
-  "final_sample_rate": 44100,
-  "retries": 2,
-  "final_name": "History_Narration_SONARO_KH.wav",
-  "tts_engine": "auto"
+  }
 }

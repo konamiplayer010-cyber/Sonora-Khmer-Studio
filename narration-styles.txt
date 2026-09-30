@@ -1,0 +1,30 @@
+ALL 13 NARRATION STYLES — one Khmer passage, in order
+======================================================
+
+Same words in every segment — and each style performs them its
+own way: its own pace, its own softness, its own pauses (meditation
+is slow and soft with long gaps, news is brisk, a trailer is slow
+and heavy, cinematic reads like a storyteller). What never
+changes is the speaker: pitch stays at 0.0 st in all 13, so it is
+always the same voice. Build l: the sustained-whisper style was
+removed, so no style whispers a whole narration. In the cinema
+style you hear ONE whispered moment, then it returns to normal.
+Voice: km-KH-SreymomNeural   Master: -16 LUFS, 48 kHz, 192 kbps
+
+0:00.00  ការអានធម្មជាតិ     natural                ( 13.0s, pace 0.98x, -0.2 dB, pause 0.10s)
+0:17.53  ខ្សែភាពយន្តឯកសារ   documentary            ( 14.3s, pace 0.94x, -0.2 dB, pause 0.40s)
+0:36.72  ឈុតផ្សាយភាពយន្ត    trailer                ( 17.2s, pace 0.91x, +0.3 dB, pause 0.70s)
+0:58.62  សៀវភៅសំឡេង         audiobook              ( 13.8s, pace 0.96x, -0.1 dB, pause 0.30s)
+1:17.06  អ្នកអានសារព័ត៌មាន  news                   ( 12.0s, pace 1.05x, +0.0 dB, pause 0.10s)
+1:33.91  ការពន្យល់          explainer              ( 13.1s, pace 0.99x, -0.1 dB, pause 0.20s)
+1:51.57  រឿងភ័យរន្ធត់       thriller               ( 16.4s, pace 0.93x, -0.5 dB, pause 0.60s)
+2:12.74  សមាធិ              meditation             ( 21.4s, pace 0.86x, -0.7 dB, pause 1.40s)
+2:38.55  ការនិទានរឿង        storytelling           ( 14.4s, pace 0.94x, -0.1 dB, pause 0.35s)
+2:57.77  ប្រលោមលោក          novel                  ( 13.9s, pace 0.94x, -0.2 dB, pause 0.30s)
+3:15.99  ការគិតក្នុងចិត្ត   inner_monologue        ( 15.7s, pace 0.92x, -0.6 dB, pause 0.45s)
+3:36.41  ស្នេហាសោកសង្រេង    sad_romantic           ( 16.8s, pace 0.89x, -0.9 dB, pause 0.50s)
+3:58.36  រឿងភាគអារម្មណ៍ខ្លាំង cinematic              ( 14.9s, pace 0.96x, -0.5 dB, pause 0.45s)
+
+Rebuild:  python build_style_demo.py
+Every segment is the shipped engine, rendered on the base voice
+(no clone), so it can be rebuilt on any machine with internet.

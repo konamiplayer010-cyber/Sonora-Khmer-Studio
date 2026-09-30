@@ -1,0 +1,13 @@
+PRODUCTION REPORT
+========================================
+Project:        CLONE_TEST
+Total chapters: 1
+Total chunks:   1
+TTS successful: 1   failed: 0
+RVC successful: 1   failed: 0
+Retried chunks: 0
+Final duration: 11.8s
+Final WAV:      D:\Sona\Sonora-Khmer-Studio\Sonora-Khmer-Studio\pipeline\clone_test\final\CLONE_TEST.wav
+RVC API:        infer.vc.modules
+RVC settings:   {'f0_method': 'rmvpe', 'pitch': 0, 'index_rate': 0.75, 'protect': 0.33, 'rms_mix_rate': 0.13, 'resample_sr': 0}
+Status:         SUCCESS

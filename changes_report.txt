@@ -1,0 +1,6 @@
+normalization report
+========================================
+input: test_paragraph_kh.txt
+
+chapter 1: 128 chars -> 149 chars, 2 sentences, 1 chunks
+    rules: word-segmented (khmercut)
